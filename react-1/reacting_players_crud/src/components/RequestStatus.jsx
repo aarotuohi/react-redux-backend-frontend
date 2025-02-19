@@ -1,0 +1,28 @@
+/** @format
+ *
+ * Short instructions
+ * ------------------
+ *
+ * COPY YOUR CODE FROM THE PREVIOUS EXERCISE HERE.
+ */
+
+import React from 'react';
+import PropTypes from 'prop-types';
+/** @format 
+ 
+  Short instructions
+  ------------------
+  This component is used to display the status of a request. It receives new status as children. 
+  
+  NOTE:for ids, classes and html elements refer to tests in the __tests__ folder to pass the unit tests, and to the cypress/e2e folder for the end-to-end tests.
+*/
+
+export const RequestStatus = ({ children }) => {
+  return <div id="request-status">{children}</div>;
+};
+
+RequestStatus.propTypes = {
+  children: PropTypes.node.isRequired,
+};
+
+export default RequestStatus;

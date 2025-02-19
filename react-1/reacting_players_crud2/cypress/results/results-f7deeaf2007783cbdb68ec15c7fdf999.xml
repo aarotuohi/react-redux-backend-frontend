@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="18.517" tests="4" failures="4">
+  <testsuite name="Root Suite" timestamp="2025-01-17T19:20:48" tests="0" file="cypress\e2e\network\getRequests.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Requests: GET" timestamp="2025-01-17T19:20:48" tests="4" time="18.512" failures="4">
+    <testcase name="Requests: GET should render players in a list with id &quot;#players-list&quot;" time="0.000" classname="should render players in a list with id &quot;#players-list&quot;">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `.btn-auth`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `.btn-auth`, but never found it.
+    at findAndClickButton (webpack://players_crud2/./cypress/support/utils.js:83:31)
+    at loginAs (webpack://players_crud2/./cypress/support/utils.js:98:2)
+    at Context.eval (webpack://players_crud2/./cypress/e2e/network/getRequests.cy.js:22:12)]]></failure>
+    </testcase>
+    <testcase name="Requests: GET should render players as focusable links inside list items" time="0.000" classname="should render players as focusable links inside list items">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `.btn-auth`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `.btn-auth`, but never found it.
+    at findAndClickButton (webpack://players_crud2/./cypress/support/utils.js:83:31)
+    at loginAs (webpack://players_crud2/./cypress/support/utils.js:98:2)
+    at Context.eval (webpack://players_crud2/./cypress/e2e/network/getRequests.cy.js:40:12)]]></failure>
+    </testcase>
+    <testcase name="Requests: GET should not show player status before a link is clicked" time="0.000" classname="should not show player status before a link is clicked">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `.btn-auth`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `.btn-auth`, but never found it.
+    at findAndClickButton (webpack://players_crud2/./cypress/support/utils.js:83:31)
+    at loginAs (webpack://players_crud2/./cypress/support/utils.js:98:2)
+    at Context.eval (webpack://players_crud2/./cypress/e2e/network/getRequests.cy.js:56:12)]]></failure>
+    </testcase>
+    <testcase name="Requests: GET should show player status when player link is clicked" time="0.000" classname="should show player status when player link is clicked">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `.btn-auth`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `.btn-auth`, but never found it.
+    at findAndClickButton (webpack://players_crud2/./cypress/support/utils.js:83:31)
+    at loginAs (webpack://players_crud2/./cypress/support/utils.js:98:2)
+    at Context.eval (webpack://players_crud2/./cypress/e2e/network/getRequests.cy.js:69:12)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

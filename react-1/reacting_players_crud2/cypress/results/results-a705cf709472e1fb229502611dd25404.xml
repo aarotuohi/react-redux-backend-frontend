@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="8.491" tests="2" failures="2">
+  <testsuite name="Root Suite" timestamp="2025-01-17T20:44:54" tests="0" file="cypress\e2e\network\postRequests.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Requests: POST" timestamp="2025-01-17T20:44:54" tests="2" time="8.487" failures="2">
+    <testcase name="Requests: POST should be able to successfully add a new player to the backend, and then to the list of players" time="0.000" classname="should be able to successfully add a new player to the backend, and then to the list of players">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `#username`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `#username`, but never found it.
+    at authFormExists (webpack://players_crud2/./cypress/support/utils.js:104:24)
+    at Context.eval (webpack://players_crud2/./cypress/e2e/network/postRequests.cy.js:23:19)]]></failure>
+    </testcase>
+    <testcase name="Requests: POST should not be able to add a new player if post-request fails" time="0.000" classname="should not be able to add a new player if post-request fails">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `#username`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `#username`, but never found it.
+    at authFormExists (webpack://players_crud2/./cypress/support/utils.js:104:24)
+    at Context.eval (webpack://players_crud2/./cypress/e2e/network/postRequests.cy.js:61:19)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

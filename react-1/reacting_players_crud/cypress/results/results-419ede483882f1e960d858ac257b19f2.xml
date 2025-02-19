@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.396" tests="2" failures="2">
+  <testsuite name="Root Suite" timestamp="2025-01-15T09:41:42" tests="0" file="cypress\e2e\network\postRequests.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Requests: POST" timestamp="2025-01-15T09:41:42" tests="2" time="0.391" failures="2">
+    <testcase name="Requests: POST should be able to successfully add a new player to the backend, and then to the list of players" time="0.000" classname="should be able to successfully add a new player to the backend, and then to the list of players">
+      <failure message="The following error originated from your application code, not from Cypress.
+
+  &gt; Cannot read properties of null (reading &apos;isActive&apos;)
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application" type="TypeError"><![CDATA[TypeError: The following error originated from your application code, not from Cypress.
+
+  > Cannot read properties of null (reading 'isActive')
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application
+    at SelectedPlayer (http://localhost:4173/src/components/SelectedPlayer.jsx:22:51)
+    at renderWithHooks (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:11548:26)
+    at mountIndeterminateComponent (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:14926:21)
+    at beginWork (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:3699:24)
+    at invokeGuardedCallback (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:3733:39)
+    at beginWork$1 (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:19765:15)
+    at performUnitOfWork (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:19198:20)
+    at workLoopSync (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:19137:13)]]></failure>
+    </testcase>
+    <testcase name="Requests: POST Should not add a new player if POST request fails" time="0.000" classname="Should not add a new player if POST request fails">
+      <failure message="The following error originated from your application code, not from Cypress.
+
+  &gt; Cannot read properties of null (reading &apos;isActive&apos;)
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application" type="TypeError"><![CDATA[TypeError: The following error originated from your application code, not from Cypress.
+
+  > Cannot read properties of null (reading 'isActive')
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application
+    at SelectedPlayer (http://localhost:4173/src/components/SelectedPlayer.jsx:22:51)
+    at renderWithHooks (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:11548:26)
+    at mountIndeterminateComponent (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:14926:21)
+    at beginWork (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:3699:24)
+    at invokeGuardedCallback (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:3733:39)
+    at beginWork$1 (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:19765:15)
+    at performUnitOfWork (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:19198:20)
+    at workLoopSync (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:19137:13)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

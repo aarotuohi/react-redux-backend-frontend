@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="9.315" tests="2" failures="2">
+  <testsuite name="Root Suite" timestamp="2025-01-17T19:20:37" tests="0" file="cypress\e2e\network\deleteRequests.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Requests: DELETE" timestamp="2025-01-17T19:20:37" tests="2" time="9.309" failures="2">
+    <testcase name="Requests: DELETE should be able to successfully delete a player from the backend" time="0.000" classname="should be able to successfully delete a player from the backend">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `.btn-auth`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `.btn-auth`, but never found it.
+    at findAndClickButton (webpack://players_crud2/./cypress/support/utils.js:83:31)
+    at loginAs (webpack://players_crud2/./cypress/support/utils.js:98:2)
+    at Context.eval (webpack://players_crud2/./cypress/e2e/network/deleteRequests.cy.js:27:12)]]></failure>
+    </testcase>
+    <testcase name="Requests: DELETE should not delete player when delete request is unsuccesful" time="0.000" classname="should not delete player when delete request is unsuccesful">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `.btn-auth`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `.btn-auth`, but never found it.
+    at findAndClickButton (webpack://players_crud2/./cypress/support/utils.js:83:31)
+    at loginAs (webpack://players_crud2/./cypress/support/utils.js:98:2)
+    at Context.eval (webpack://players_crud2/./cypress/e2e/network/deleteRequests.cy.js:66:12)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="8.537" tests="2" failures="2">
+  <testsuite name="Root Suite" timestamp="2025-01-17T20:07:29" tests="0" file="cypress\e2e\network\authRequests.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Requests: REGISTER" timestamp="2025-01-17T20:07:29" tests="2" time="8.532" failures="2">
+    <testcase name="Requests: REGISTER should be able to succesfully complete the registration process" time="0.000" classname="should be able to succesfully complete the registration process">
+      <failure message="Timed out retrying after 4000ms: Expected to find content: &apos;register&apos; within the element: &lt;a.logo&gt; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find content: 'register' within the element: <a.logo> but never did.
+    at Context.eval (webpack://players_crud2/./cypress/e2e/network/authRequests.cy.js:24:37)]]></failure>
+    </testcase>
+    <testcase name="Requests: REGISTER should not be able to register if post-request fails" time="0.000" classname="should not be able to register if post-request fails">
+      <failure message="Timed out retrying after 4000ms: Expected to find content: &apos;register&apos; within the element: &lt;a.logo&gt; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find content: 'register' within the element: <a.logo> but never did.
+    at Context.eval (webpack://players_crud2/./cypress/e2e/network/authRequests.cy.js:53:37)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

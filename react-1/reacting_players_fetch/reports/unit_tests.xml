@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="11" failures="0" errors="0" time="1.324">
+    <testsuite name="components/__tests__/ListPlayer.test.jsx" timestamp="2025-01-14T13:44:39.216Z" hostname="DESKTOP-69SJ9HK" tests="4" failures="0" errors="0" skipped="0" time="0.221">
+        <testcase classname="components/__tests__/ListPlayer.test.jsx" name="ListPlayer &gt; renders a list item with the player&apos;s id as its id" time="0.104">
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayer.test.jsx" name="ListPlayer &gt; displays the player name inside the anchor element" time="0.057">
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayer.test.jsx" name="ListPlayer &gt; calls the onClick prop with the player id when the link is clicked" time="0.031">
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayer.test.jsx" name="ListPlayer &gt; anchor should be focusable via the keyboard (by pressing the tab key)" time="0.029">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/ListPlayers.test.jsx" timestamp="2025-01-14T13:44:39.219Z" hostname="DESKTOP-69SJ9HK" tests="2" failures="0" errors="0" skipped="0" time="0.18">
+        <testcase classname="components/__tests__/ListPlayers.test.jsx" name="ListPlayers &gt; renders a list with id &quot;players-list&quot;" time="0.129">
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayers.test.jsx" name="ListPlayers &gt; renders a ListPlayer for each player in the players prop" time="0.05">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/RequestStatus.test.jsx" timestamp="2025-01-14T13:44:39.219Z" hostname="DESKTOP-69SJ9HK" tests="2" failures="0" errors="0" skipped="0" time="0.023">
+        <testcase classname="components/__tests__/RequestStatus.test.jsx" name="RequestStatus component &gt; should render the component, inside which is an element with id &apos;request-status&apos;" time="0.019">
+        </testcase>
+        <testcase classname="components/__tests__/RequestStatus.test.jsx" name="RequestStatus component &gt; should render the component with the correct status" time="0.002">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/SelectedPlayer.test.jsx" timestamp="2025-01-14T13:44:39.220Z" hostname="DESKTOP-69SJ9HK" tests="3" failures="0" errors="0" skipped="0" time="0.033">
+        <testcase classname="components/__tests__/SelectedPlayer.test.jsx" name="SelectedPlayer component &gt; should render active player data correctly" time="0.025">
+        </testcase>
+        <testcase classname="components/__tests__/SelectedPlayer.test.jsx" name="SelectedPlayer component &gt; should render inactive player data correctly" time="0.005">
+        </testcase>
+        <testcase classname="components/__tests__/SelectedPlayer.test.jsx" name="SelectedPlayer component &gt; should not render if selected player is null" time="0.002">
+        </testcase>
+    </testsuite>
+</testsuites>

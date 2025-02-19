@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.409" tests="2" failures="2">
+  <testsuite name="Root Suite" timestamp="2025-01-18T16:03:12" tests="0" file="cypress\e2e\network\authRequests.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Requests: REGISTER" timestamp="2025-01-18T16:03:12" tests="2" time="0.406" failures="2">
+    <testcase name="Requests: REGISTER should be able to succesfully complete the registration process" time="0.000" classname="should be able to succesfully complete the registration process">
+      <failure message="The following error originated from your application code, not from Cypress.
+
+  &gt; The requested module &apos;/src/components/AuthUser.jsx&apos; does not provide an export named &apos;AuthUser&apos;
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application" type="SyntaxError"><![CDATA[SyntaxError: The following error originated from your application code, not from Cypress.
+
+  > The requested module '/src/components/AuthUser.jsx' does not provide an export named 'AuthUser'
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application]]></failure>
+    </testcase>
+    <testcase name="Requests: REGISTER should not be able to register if post-request fails" time="0.000" classname="should not be able to register if post-request fails">
+      <failure message="The following error originated from your application code, not from Cypress.
+
+  &gt; The requested module &apos;/src/components/AuthUser.jsx&apos; does not provide an export named &apos;AuthUser&apos;
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application" type="SyntaxError"><![CDATA[SyntaxError: The following error originated from your application code, not from Cypress.
+
+  > The requested module '/src/components/AuthUser.jsx' does not provide an export named 'AuthUser'
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

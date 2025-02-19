@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.125" tests="2" failures="2">
+  <testsuite name="Root Suite" timestamp="2025-01-15T09:50:37" tests="0" file="cypress\e2e\network\postRequests.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Requests: POST" timestamp="2025-01-15T09:50:37" tests="2" time="1.121" failures="2">
+    <testcase name="Requests: POST should be able to successfully add a new player to the backend, and then to the list of players" time="0.000" classname="should be able to successfully add a new player to the backend, and then to the list of players">
+      <failure message="The following error originated from your application code, not from Cypress.
+
+  &gt; handleSubmit is not a function
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application" type="TypeError"><![CDATA[TypeError: The following error originated from your application code, not from Cypress.
+
+  > handleSubmit is not a function
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application
+    at onSubmit (http://localhost:4173/src/components/AddPlayer.jsx:26:5)
+    at HTMLUnknownElement.callCallback2 (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:3699:24)
+    at invokeGuardedCallback (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:3733:39)
+    at invokeGuardedCallbackAndCatchFirstError (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:3736:33)
+    at executeDispatch (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:7014:11)
+    at processDispatchQueueItemsInOrder (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:7034:15)
+    at processDispatchQueue (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:7043:13)
+    at dispatchEventsForPlugins (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:7051:11)
+    at <unknown> (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:7174:20)]]></failure>
+    </testcase>
+    <testcase name="Requests: POST Should not add a new player if POST request fails" time="0.000" classname="Should not add a new player if POST request fails">
+      <failure message="The following error originated from your application code, not from Cypress.
+
+  &gt; handleSubmit is not a function
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application" type="TypeError"><![CDATA[TypeError: The following error originated from your application code, not from Cypress.
+
+  > handleSubmit is not a function
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application
+    at onSubmit (http://localhost:4173/src/components/AddPlayer.jsx:26:5)
+    at HTMLUnknownElement.callCallback2 (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:3699:24)
+    at invokeGuardedCallback (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:3733:39)
+    at invokeGuardedCallbackAndCatchFirstError (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:3736:33)
+    at executeDispatch (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:7014:11)
+    at processDispatchQueueItemsInOrder (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:7034:15)
+    at processDispatchQueue (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:7043:13)
+    at dispatchEventsForPlugins (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:7051:11)
+    at <unknown> (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=28d3b1ef:7174:20)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

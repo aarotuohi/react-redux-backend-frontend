@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="5.565" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2025-01-15T07:35:55" tests="0" file="cypress\e2e\network\postRequests.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Requests: POST" timestamp="2025-01-15T07:35:55" tests="2" time="5.560" failures="1">
+    <testcase name="Requests: POST should be able to successfully add a new player to the backend, and then to the list of players" time="0.000" classname="should be able to successfully add a new player to the backend, and then to the list of players">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `#players-list li`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `#players-list li`, but never found it.
+    at Context.eval (webpack://players_crud1/./cypress/e2e/network/postRequests.cy.js:38:35)]]></failure>
+    </testcase>
+    <testcase name="Requests: POST Should not add a new player if POST request fails" time="0.830" classname="Should not add a new player if POST request fails">
+    </testcase>
+  </testsuite>
+</testsuites>

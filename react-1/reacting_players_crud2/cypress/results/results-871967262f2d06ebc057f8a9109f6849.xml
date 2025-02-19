@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="9.459" tests="2" failures="2">
+  <testsuite name="Root Suite" timestamp="2025-01-18T16:07:39" tests="0" file="cypress\e2e\network\putRequest.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Requests: PUT" timestamp="2025-01-18T16:07:39" tests="2" time="9.455" failures="2">
+    <testcase name="Requests: PUT should be able to update a players active-state correctly in the frontend and the backend. " time="0.000" classname="should be able to update a players active-state correctly in the frontend and the backend. ">
+      <failure message="Timed out retrying after 4000ms: Expected to find content: &apos;Loading...&apos; within the element: &lt;div#request-status&gt; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Loading...' within the element: <div#request-status> but never did.
+    at checkRequestStatus (webpack://players_crud2/./cypress/support/utils.js:56:35)
+    at stateUpdateCheck (webpack://players_crud2/./cypress/e2e/network/putRequest.cy.js:35:21)
+    at Context.eval (webpack://players_crud2/./cypress/e2e/network/putRequest.cy.js:74:4)]]></failure>
+    </testcase>
+    <testcase name="Requests: PUT should not update player if put request fails." time="0.000" classname="should not update player if put request fails.">
+      <failure message="Timed out retrying after 4000ms: Expected to find content: &apos;Loading...&apos; within the element: &lt;div#request-status&gt; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Loading...' within the element: <div#request-status> but never did.
+    at checkRequestStatus (webpack://players_crud2/./cypress/support/utils.js:56:35)
+    at Context.eval (webpack://players_crud2/./cypress/e2e/network/putRequest.cy.js:93:23)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

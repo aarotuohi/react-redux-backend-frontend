@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="10.023" tests="2" failures="2">
+  <testsuite name="Root Suite" timestamp="2025-01-17T18:40:54" tests="0" file="cypress\e2e\network\putRequest.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Requests: PUT" timestamp="2025-01-17T18:40:54" tests="2" time="10.018" failures="2">
+    <testcase name="Requests: PUT should be able to update a players active-state correctly in the frontend and the backend. " time="0.000" classname="should be able to update a players active-state correctly in the frontend and the backend. ">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `.btn-auth`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `.btn-auth`, but never found it.
+    at findAndClickButton (webpack://players_crud2/./cypress/support/utils.js:83:31)
+    at loginAs (webpack://players_crud2/./cypress/support/utils.js:98:2)
+    at stateUpdateCheck (webpack://players_crud2/./cypress/e2e/network/putRequest.cy.js:34:10)
+    at Context.eval (webpack://players_crud2/./cypress/e2e/network/putRequest.cy.js:74:4)]]></failure>
+    </testcase>
+    <testcase name="Requests: PUT should not update player if put request fails." time="0.000" classname="should not update player if put request fails.">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `.btn-auth`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `.btn-auth`, but never found it.
+    at findAndClickButton (webpack://players_crud2/./cypress/support/utils.js:83:31)
+    at loginAs (webpack://players_crud2/./cypress/support/utils.js:98:2)
+    at Context.eval (webpack://players_crud2/./cypress/e2e/network/putRequest.cy.js:92:12)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

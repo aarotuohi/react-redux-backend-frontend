@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="16.599" tests="4" failures="4">
+  <testsuite name="Root Suite" timestamp="2025-01-17T20:01:11" tests="0" file="cypress\e2e\network\getRequests.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Requests: GET" timestamp="2025-01-17T20:01:11" tests="4" time="16.595" failures="4">
+    <testcase name="Requests: GET should render players in a list with id &quot;#players-list&quot;" time="0.000" classname="should render players in a list with id &quot;#players-list&quot;">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `#auth-form`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `#auth-form`, but never found it.
+    at authFormExists (webpack://players_crud2/./cypress/support/utils.js:103:25)
+    at Context.eval (webpack://players_crud2/./cypress/e2e/network/getRequests.cy.js:20:19)]]></failure>
+    </testcase>
+    <testcase name="Requests: GET should render players as focusable links inside list items" time="0.000" classname="should render players as focusable links inside list items">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `#auth-form`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `#auth-form`, but never found it.
+    at authFormExists (webpack://players_crud2/./cypress/support/utils.js:103:25)
+    at Context.eval (webpack://players_crud2/./cypress/e2e/network/getRequests.cy.js:38:19)]]></failure>
+    </testcase>
+    <testcase name="Requests: GET should not show player status before a link is clicked" time="0.000" classname="should not show player status before a link is clicked">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `#auth-form`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `#auth-form`, but never found it.
+    at authFormExists (webpack://players_crud2/./cypress/support/utils.js:103:25)
+    at Context.eval (webpack://players_crud2/./cypress/e2e/network/getRequests.cy.js:54:19)]]></failure>
+    </testcase>
+    <testcase name="Requests: GET should show player status when player link is clicked" time="0.000" classname="should show player status when player link is clicked">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `#auth-form`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `#auth-form`, but never found it.
+    at authFormExists (webpack://players_crud2/./cypress/support/utils.js:103:25)
+    at Context.eval (webpack://players_crud2/./cypress/e2e/network/getRequests.cy.js:67:19)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

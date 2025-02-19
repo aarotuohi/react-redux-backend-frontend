@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="8.751" tests="2" failures="2">
+  <testsuite name="Root Suite" timestamp="2025-01-15T08:56:54" tests="0" file="cypress\e2e\network\putRequest.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Requests: PUT" timestamp="2025-01-15T08:56:54" tests="2" time="8.747" failures="2">
+    <testcase name="Requests: PUT should be able to update a players active-state correctly in the frontend and the backend. " time="0.000" classname="should be able to update a players active-state correctly in the frontend and the backend. ">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `#checkbox-label`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `#checkbox-label`, but never found it.
+    at checkCheckbox (webpack://players_crud1/./cypress/support/utils.js:27:4)
+    at Context.eval (webpack://players_crud1/./cypress/e2e/network/putRequest.cy.js:39:16)]]></failure>
+    </testcase>
+    <testcase name="Requests: PUT Should not update the player if update fails." time="0.000" classname="Should not update the player if update fails.">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `#checkbox-label`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `#checkbox-label`, but never found it.
+    at checkCheckbox (webpack://players_crud1/./cypress/support/utils.js:27:4)
+    at Context.eval (webpack://players_crud1/./cypress/e2e/network/putRequest.cy.js:89:18)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

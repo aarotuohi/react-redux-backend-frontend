@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="13.696" tests="2" failures="2">
+  <testsuite name="Root Suite" timestamp="2025-01-20T07:20:48" tests="0" file="cypress\e2e\network\authRequests.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Requests: REGISTER" timestamp="2025-01-20T07:20:48" tests="2" time="13.689" failures="2">
+    <testcase name="Requests: REGISTER should be able to succesfully complete the registration process" time="0.000" classname="should be able to succesfully complete the registration process">
+      <failure message="Timed out retrying after 4000ms: Expected to find content: &apos;Finished!&apos; within the element: &lt;div#request-status&gt; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Finished!' within the element: <div#request-status> but never did.
+    at checkRequestStatus (webpack://players_crud2/./cypress/support/utils.js:56:35)
+    at Context.eval (webpack://players_crud2/./cypress/e2e/network/authRequests.cy.js:45:27)]]></failure>
+    </testcase>
+    <testcase name="Requests: REGISTER should not be able to register if post-request fails" time="0.000" classname="should not be able to register if post-request fails">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `#auth-form`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `#auth-form`, but never found it.
+    at authFormExists (webpack://players_crud2/./cypress/support/utils.js:103:25)
+    at Context.eval (webpack://players_crud2/./cypress/e2e/network/authRequests.cy.js:70:21)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

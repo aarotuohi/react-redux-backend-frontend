@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.401" tests="2" failures="2">
+  <testsuite name="Root Suite" timestamp="2025-01-18T16:31:15" tests="0" file="cypress\e2e\network\postRequests.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Requests: POST" timestamp="2025-01-18T16:31:15" tests="2" time="0.397" failures="2">
+    <testcase name="Requests: POST should be able to successfully add a new player to the backend, and then to the list of players" time="0.000" classname="should be able to successfully add a new player to the backend, and then to the list of players">
+      <failure message="The following error originated from your application code, not from Cypress.
+
+  &gt; username is not defined
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application" type="ReferenceError"><![CDATA[ReferenceError: The following error originated from your application code, not from Cypress.
+
+  > username is not defined
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application
+    at App (http://localhost:4173/src/App.jsx:226:18)
+    at renderWithHooks (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=342cb091:11548:26)
+    at mountIndeterminateComponent (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=342cb091:14926:21)
+    at beginWork (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=342cb091:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=342cb091:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=342cb091:3699:24)
+    at invokeGuardedCallback (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=342cb091:3733:39)
+    at beginWork$1 (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=342cb091:19765:15)
+    at performUnitOfWork (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=342cb091:19198:20)
+    at workLoopSync (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=342cb091:19137:13)]]></failure>
+    </testcase>
+    <testcase name="Requests: POST should not be able to add a new player if post-request fails" time="0.000" classname="should not be able to add a new player if post-request fails">
+      <failure message="The following error originated from your application code, not from Cypress.
+
+  &gt; username is not defined
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application" type="ReferenceError"><![CDATA[ReferenceError: The following error originated from your application code, not from Cypress.
+
+  > username is not defined
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application
+    at App (http://localhost:4173/src/App.jsx:226:18)
+    at renderWithHooks (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=342cb091:11548:26)
+    at mountIndeterminateComponent (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=342cb091:14926:21)
+    at beginWork (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=342cb091:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=342cb091:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=342cb091:3699:24)
+    at invokeGuardedCallback (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=342cb091:3733:39)
+    at beginWork$1 (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=342cb091:19765:15)
+    at performUnitOfWork (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=342cb091:19198:20)
+    at workLoopSync (http://localhost:4173/node_modules/.vite/deps/chunk-NGODP64W.js?v=342cb091:19137:13)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
