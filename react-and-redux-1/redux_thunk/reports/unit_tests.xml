@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="29" failures="12" errors="0" time="2.376">
+    <testsuite name="components/__tests__/AddPlayer.test.jsx" timestamp="2025-01-22T11:09:20.977Z" hostname="DESKTOP-69SJ9HK" tests="1" failures="1" errors="0" skipped="0" time="0">
+        <testcase classname="components/__tests__/AddPlayer.test.jsx" name="components/__tests__/AddPlayer.test.jsx" time="0">
+            <failure message="Failed to resolve import &quot;../../actionCreators/selectedPlayersAction&quot; from &quot;src/redux/actionCreators/thunks/AddPlayer.js&quot;. Does the file exist?" type="Error">
+Error: Failed to resolve import &quot;../../actionCreators/selectedPlayersAction&quot; from &quot;src/redux/actionCreators/thunks/AddPlayer.js&quot;. Does the file exist?
+ ❯ TransformPluginContext._formatError ../node_modules/vite/dist/node/chunks/dep-Cjmyj91f.js:49257:41
+ ❯ TransformPluginContext.error ../node_modules/vite/dist/node/chunks/dep-Cjmyj91f.js:49252:16
+ ❯ normalizeUrl ../node_modules/vite/dist/node/chunks/dep-Cjmyj91f.js:64191:23
+ ❯ ../async file:/C:/Users/Aaro/Downloads/COMP.CS.520/msaatu/react-and-redux-1/redux_thunk/node_modules/vite/dist/node/chunks/dep-Cjmyj91f.js:64323:39
+ ❯ TransformPluginContext.transform ../node_modules/vite/dist/node/chunks/dep-Cjmyj91f.js:64250:7
+ ❯ PluginContainer.transform ../node_modules/vite/dist/node/chunks/dep-Cjmyj91f.js:49098:18
+ ❯ loadAndTransform ../node_modules/vite/dist/node/chunks/dep-Cjmyj91f.js:51931:27
+
+            </failure>
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/ListPlayer.test.jsx" timestamp="2025-01-22T11:09:20.980Z" hostname="DESKTOP-69SJ9HK" tests="3" failures="3" errors="0" skipped="0" time="0.045">
+        <testcase classname="components/__tests__/ListPlayer.test.jsx" name="ListPlayer &gt; renders a list item with the player&apos;s id as its id" time="0.029">
+            <system-err>
+Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+
+Check your code at ListPlayer.test.jsx:26.
+Error: Uncaught [Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.]
+    at reportException (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:66:24)
+    at innerInvokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:353:9)
+    at invokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+    at Object.invokeGuardedCallbackDev (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+    at invokeGuardedCallback (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+    at beginWork$1 (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:27490:7)
+    at performUnitOfWork (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:26599:12) Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+    at createFiberFromTypeAndProps [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28478:17[90m)[39m
+    at createFiberFromElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28504:15[90m)[39m
+    at reconcileSingleElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:13986:23[90m)[39m
+    at reconcileChildFibers [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:14044:35[90m)[39m
+    at reconcileChildren [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:19186:28[90m)[39m
+    at updateContextProvider [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21193:3[90m)[39m
+    at beginWork [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21688:14[90m)[39m
+    at HTMLUnknownElement.callCallback [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:4164:14[90m)[39m
+    at HTMLUnknownElement.callTheUserObjectsOperation [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\generated\EventListener.js:26:30[90m)[39m
+    at innerInvokeEventListeners [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\events\EventTarget-impl.js:350:25[90m)[39m
+Error: Uncaught [Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.]
+    at reportException (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:66:24)
+    at innerInvokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:353:9)
+    at invokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+    at Object.invokeGuardedCallbackDev (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+    at invokeGuardedCallback (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+    at beginWork$1 (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:27490:7)
+    at performUnitOfWork (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:26599:12) Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+    at createFiberFromTypeAndProps [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28478:17[90m)[39m
+    at createFiberFromElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28504:15[90m)[39m
+    at reconcileSingleElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:13986:23[90m)[39m
+    at reconcileChildFibers [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:14044:35[90m)[39m
+    at reconcileChildren [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:19186:28[90m)[39m
+    at updateContextProvider [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21193:3[90m)[39m
+    at beginWork [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21688:14[90m)[39m
+    at HTMLUnknownElement.callCallback [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:4164:14[90m)[39m
+    at HTMLUnknownElement.callTheUserObjectsOperation [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\generated\EventListener.js:26:30[90m)[39m
+    at innerInvokeEventListeners [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\events\EventTarget-impl.js:350:25[90m)[39m
+The above error occurred in the &lt;ReactRedux.Provider&gt; component:
+
+    at Provider (file:///C:/Users/Aaro/Downloads/COMP.CS.520/msaatu/react-and-redux-1/redux_thunk/node_modules/react-redux/dist/react-redux.mjs:875:11)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+            </system-err>
+            <failure message="Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports." type="Error">
+Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+ ❯ createFiberFromTypeAndProps ../node_modules/react-dom/cjs/react-dom.development.js:28478:17
+ ❯ createFiberFromElement ../node_modules/react-dom/cjs/react-dom.development.js:28504:15
+ ❯ reconcileSingleElement ../node_modules/react-dom/cjs/react-dom.development.js:13986:23
+ ❯ reconcileChildFibers ../node_modules/react-dom/cjs/react-dom.development.js:14044:35
+ ❯ reconcileChildren ../node_modules/react-dom/cjs/react-dom.development.js:19186:28
+ ❯ updateContextProvider ../node_modules/react-dom/cjs/react-dom.development.js:21193:3
+ ❯ beginWork ../node_modules/react-dom/cjs/react-dom.development.js:21688:14
+ ❯ beginWork$1 ../node_modules/react-dom/cjs/react-dom.development.js:27465:14
+ ❯ performUnitOfWork ../node_modules/react-dom/cjs/react-dom.development.js:26599:12
+ ❯ workLoopSync ../node_modules/react-dom/cjs/react-dom.development.js:26505:5
+
+            </failure>
+            <failure message="Cannot read properties of undefined (reading &apos;unmount&apos;)" type="TypeError">
+TypeError: Cannot read properties of undefined (reading &apos;unmount&apos;)
+ ❯ components/__tests__/ListPlayer.test.jsx:33:15
+
+            </failure>
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayer.test.jsx" name="ListPlayer &gt; displays the player name inside the anchor element" time="0.005">
+            <system-err>
+Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+
+Check your code at ListPlayer.test.jsx:26.
+Error: Uncaught [Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.]
+    at reportException (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:66:24)
+    at innerInvokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:353:9)
+    at invokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+    at Object.invokeGuardedCallbackDev (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+    at invokeGuardedCallback (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+    at beginWork$1 (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:27490:7)
+    at performUnitOfWork (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:26599:12) Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+    at createFiberFromTypeAndProps [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28478:17[90m)[39m
+    at createFiberFromElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28504:15[90m)[39m
+    at reconcileSingleElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:13986:23[90m)[39m
+    at reconcileChildFibers [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:14044:35[90m)[39m
+    at reconcileChildren [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:19186:28[90m)[39m
+    at updateContextProvider [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21193:3[90m)[39m
+    at beginWork [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21688:14[90m)[39m
+    at HTMLUnknownElement.callCallback [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:4164:14[90m)[39m
+    at HTMLUnknownElement.callTheUserObjectsOperation [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\generated\EventListener.js:26:30[90m)[39m
+    at innerInvokeEventListeners [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\events\EventTarget-impl.js:350:25[90m)[39m
+Error: Uncaught [Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.]
+    at reportException (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:66:24)
+    at innerInvokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:353:9)
+    at invokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+    at Object.invokeGuardedCallbackDev (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+    at invokeGuardedCallback (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+    at beginWork$1 (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:27490:7)
+    at performUnitOfWork (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:26599:12) Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+    at createFiberFromTypeAndProps [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28478:17[90m)[39m
+    at createFiberFromElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28504:15[90m)[39m
+    at reconcileSingleElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:13986:23[90m)[39m
+    at reconcileChildFibers [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:14044:35[90m)[39m
+    at reconcileChildren [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:19186:28[90m)[39m
+    at updateContextProvider [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21193:3[90m)[39m
+    at beginWork [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21688:14[90m)[39m
+    at HTMLUnknownElement.callCallback [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:4164:14[90m)[39m
+    at HTMLUnknownElement.callTheUserObjectsOperation [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\generated\EventListener.js:26:30[90m)[39m
+    at innerInvokeEventListeners [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\events\EventTarget-impl.js:350:25[90m)[39m
+The above error occurred in the &lt;ReactRedux.Provider&gt; component:
+
+    at Provider (file:///C:/Users/Aaro/Downloads/COMP.CS.520/msaatu/react-and-redux-1/redux_thunk/node_modules/react-redux/dist/react-redux.mjs:875:11)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+            </system-err>
+            <failure message="Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports." type="Error">
+Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+ ❯ createFiberFromTypeAndProps ../node_modules/react-dom/cjs/react-dom.development.js:28478:17
+ ❯ createFiberFromElement ../node_modules/react-dom/cjs/react-dom.development.js:28504:15
+ ❯ reconcileSingleElement ../node_modules/react-dom/cjs/react-dom.development.js:13986:23
+ ❯ reconcileChildFibers ../node_modules/react-dom/cjs/react-dom.development.js:14044:35
+ ❯ reconcileChildren ../node_modules/react-dom/cjs/react-dom.development.js:19186:28
+ ❯ updateContextProvider ../node_modules/react-dom/cjs/react-dom.development.js:21193:3
+ ❯ beginWork ../node_modules/react-dom/cjs/react-dom.development.js:21688:14
+ ❯ beginWork$1 ../node_modules/react-dom/cjs/react-dom.development.js:27465:14
+ ❯ performUnitOfWork ../node_modules/react-dom/cjs/react-dom.development.js:26599:12
+ ❯ workLoopSync ../node_modules/react-dom/cjs/react-dom.development.js:26505:5
+
+            </failure>
+            <failure message="Cannot read properties of undefined (reading &apos;unmount&apos;)" type="TypeError">
+TypeError: Cannot read properties of undefined (reading &apos;unmount&apos;)
+ ❯ components/__tests__/ListPlayer.test.jsx:33:15
+
+            </failure>
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayer.test.jsx" name="ListPlayer &gt; calls the onClick prop with the player id when the link is clicked" time="0.006">
+            <system-err>
+Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+
+Check your code at ListPlayer.test.jsx:26.
+Error: Uncaught [Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.]
+    at reportException (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:66:24)
+    at innerInvokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:353:9)
+    at invokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+    at Object.invokeGuardedCallbackDev (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+    at invokeGuardedCallback (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+    at beginWork$1 (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:27490:7)
+    at performUnitOfWork (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:26599:12) Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+    at createFiberFromTypeAndProps [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28478:17[90m)[39m
+    at createFiberFromElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28504:15[90m)[39m
+    at reconcileSingleElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:13986:23[90m)[39m
+    at reconcileChildFibers [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:14044:35[90m)[39m
+    at reconcileChildren [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:19186:28[90m)[39m
+    at updateContextProvider [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21193:3[90m)[39m
+    at beginWork [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21688:14[90m)[39m
+    at HTMLUnknownElement.callCallback [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:4164:14[90m)[39m
+    at HTMLUnknownElement.callTheUserObjectsOperation [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\generated\EventListener.js:26:30[90m)[39m
+    at innerInvokeEventListeners [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\events\EventTarget-impl.js:350:25[90m)[39m
+Error: Uncaught [Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.]
+    at reportException (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:66:24)
+    at innerInvokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:353:9)
+    at invokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+    at Object.invokeGuardedCallbackDev (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+    at invokeGuardedCallback (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+    at beginWork$1 (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:27490:7)
+    at performUnitOfWork (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:26599:12) Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+    at createFiberFromTypeAndProps [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28478:17[90m)[39m
+    at createFiberFromElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28504:15[90m)[39m
+    at reconcileSingleElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:13986:23[90m)[39m
+    at reconcileChildFibers [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:14044:35[90m)[39m
+    at reconcileChildren [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:19186:28[90m)[39m
+    at updateContextProvider [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21193:3[90m)[39m
+    at beginWork [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21688:14[90m)[39m
+    at HTMLUnknownElement.callCallback [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:4164:14[90m)[39m
+    at HTMLUnknownElement.callTheUserObjectsOperation [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\generated\EventListener.js:26:30[90m)[39m
+    at innerInvokeEventListeners [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\events\EventTarget-impl.js:350:25[90m)[39m
+The above error occurred in the &lt;ReactRedux.Provider&gt; component:
+
+    at Provider (file:///C:/Users/Aaro/Downloads/COMP.CS.520/msaatu/react-and-redux-1/redux_thunk/node_modules/react-redux/dist/react-redux.mjs:875:11)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+            </system-err>
+            <failure message="Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports." type="Error">
+Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+ ❯ createFiberFromTypeAndProps ../node_modules/react-dom/cjs/react-dom.development.js:28478:17
+ ❯ createFiberFromElement ../node_modules/react-dom/cjs/react-dom.development.js:28504:15
+ ❯ reconcileSingleElement ../node_modules/react-dom/cjs/react-dom.development.js:13986:23
+ ❯ reconcileChildFibers ../node_modules/react-dom/cjs/react-dom.development.js:14044:35
+ ❯ reconcileChildren ../node_modules/react-dom/cjs/react-dom.development.js:19186:28
+ ❯ updateContextProvider ../node_modules/react-dom/cjs/react-dom.development.js:21193:3
+ ❯ beginWork ../node_modules/react-dom/cjs/react-dom.development.js:21688:14
+ ❯ beginWork$1 ../node_modules/react-dom/cjs/react-dom.development.js:27465:14
+ ❯ performUnitOfWork ../node_modules/react-dom/cjs/react-dom.development.js:26599:12
+ ❯ workLoopSync ../node_modules/react-dom/cjs/react-dom.development.js:26505:5
+
+            </failure>
+            <failure message="Cannot read properties of undefined (reading &apos;unmount&apos;)" type="TypeError">
+TypeError: Cannot read properties of undefined (reading &apos;unmount&apos;)
+ ❯ components/__tests__/ListPlayer.test.jsx:33:15
+
+            </failure>
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/ListPlayers.test.jsx" timestamp="2025-01-22T11:09:20.985Z" hostname="DESKTOP-69SJ9HK" tests="2" failures="2" errors="0" skipped="0" time="0.032">
+        <testcase classname="components/__tests__/ListPlayers.test.jsx" name="ListPlayers &gt; renders a list with id &quot;players-list&quot;" time="0.024">
+            <system-err>
+Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+
+Check your code at ListPlayers.test.jsx:30.
+Error: Uncaught [Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.]
+    at reportException (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:66:24)
+    at innerInvokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:353:9)
+    at invokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+    at Object.invokeGuardedCallbackDev (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+    at invokeGuardedCallback (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+    at beginWork$1 (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:27490:7)
+    at performUnitOfWork (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:26599:12) Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+    at createFiberFromTypeAndProps [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28478:17[90m)[39m
+    at createFiberFromElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28504:15[90m)[39m
+    at reconcileSingleElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:13986:23[90m)[39m
+    at reconcileChildFibers [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:14044:35[90m)[39m
+    at reconcileChildren [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:19186:28[90m)[39m
+    at updateContextProvider [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21193:3[90m)[39m
+    at beginWork [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21688:14[90m)[39m
+    at HTMLUnknownElement.callCallback [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:4164:14[90m)[39m
+    at HTMLUnknownElement.callTheUserObjectsOperation [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\generated\EventListener.js:26:30[90m)[39m
+    at innerInvokeEventListeners [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\events\EventTarget-impl.js:350:25[90m)[39m
+Error: Uncaught [Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.]
+    at reportException (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:66:24)
+    at innerInvokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:353:9)
+    at invokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+    at Object.invokeGuardedCallbackDev (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+    at invokeGuardedCallback (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+    at beginWork$1 (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:27490:7)
+    at performUnitOfWork (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:26599:12) Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+    at createFiberFromTypeAndProps [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28478:17[90m)[39m
+    at createFiberFromElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28504:15[90m)[39m
+    at reconcileSingleElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:13986:23[90m)[39m
+    at reconcileChildFibers [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:14044:35[90m)[39m
+    at reconcileChildren [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:19186:28[90m)[39m
+    at updateContextProvider [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21193:3[90m)[39m
+    at beginWork [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21688:14[90m)[39m
+    at HTMLUnknownElement.callCallback [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:4164:14[90m)[39m
+    at HTMLUnknownElement.callTheUserObjectsOperation [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\generated\EventListener.js:26:30[90m)[39m
+    at innerInvokeEventListeners [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\events\EventTarget-impl.js:350:25[90m)[39m
+The above error occurred in the &lt;ReactRedux.Provider&gt; component:
+
+    at Provider (file:///C:/Users/Aaro/Downloads/COMP.CS.520/msaatu/react-and-redux-1/redux_thunk/node_modules/react-redux/dist/react-redux.mjs:875:11)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+            </system-err>
+            <failure message="Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports." type="Error">
+Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+ ❯ createFiberFromTypeAndProps ../node_modules/react-dom/cjs/react-dom.development.js:28478:17
+ ❯ createFiberFromElement ../node_modules/react-dom/cjs/react-dom.development.js:28504:15
+ ❯ reconcileSingleElement ../node_modules/react-dom/cjs/react-dom.development.js:13986:23
+ ❯ reconcileChildFibers ../node_modules/react-dom/cjs/react-dom.development.js:14044:35
+ ❯ reconcileChildren ../node_modules/react-dom/cjs/react-dom.development.js:19186:28
+ ❯ updateContextProvider ../node_modules/react-dom/cjs/react-dom.development.js:21193:3
+ ❯ beginWork ../node_modules/react-dom/cjs/react-dom.development.js:21688:14
+ ❯ beginWork$1 ../node_modules/react-dom/cjs/react-dom.development.js:27465:14
+ ❯ performUnitOfWork ../node_modules/react-dom/cjs/react-dom.development.js:26599:12
+ ❯ workLoopSync ../node_modules/react-dom/cjs/react-dom.development.js:26505:5
+
+            </failure>
+            <failure message="Cannot read properties of undefined (reading &apos;unmount&apos;)" type="TypeError">
+TypeError: Cannot read properties of undefined (reading &apos;unmount&apos;)
+ ❯ components/__tests__/ListPlayers.test.jsx:36:15
+
+            </failure>
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayers.test.jsx" name="ListPlayers &gt; renders a ListPlayer for each player in the players prop" time="0.002">
+            <system-err>
+Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+
+Check your code at ListPlayers.test.jsx:30.
+Error: Uncaught [Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.]
+    at reportException (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:66:24)
+    at innerInvokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:353:9)
+    at invokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+    at Object.invokeGuardedCallbackDev (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+    at invokeGuardedCallback (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+    at beginWork$1 (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:27490:7)
+    at performUnitOfWork (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:26599:12) Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+    at createFiberFromTypeAndProps [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28478:17[90m)[39m
+    at createFiberFromElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28504:15[90m)[39m
+    at reconcileSingleElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:13986:23[90m)[39m
+    at reconcileChildFibers [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:14044:35[90m)[39m
+    at reconcileChildren [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:19186:28[90m)[39m
+    at updateContextProvider [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21193:3[90m)[39m
+    at beginWork [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21688:14[90m)[39m
+    at HTMLUnknownElement.callCallback [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:4164:14[90m)[39m
+    at HTMLUnknownElement.callTheUserObjectsOperation [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\generated\EventListener.js:26:30[90m)[39m
+    at innerInvokeEventListeners [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\events\EventTarget-impl.js:350:25[90m)[39m
+Error: Uncaught [Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.]
+    at reportException (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:66:24)
+    at innerInvokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:353:9)
+    at invokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+    at Object.invokeGuardedCallbackDev (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+    at invokeGuardedCallback (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+    at beginWork$1 (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:27490:7)
+    at performUnitOfWork (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:26599:12) Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+    at createFiberFromTypeAndProps [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28478:17[90m)[39m
+    at createFiberFromElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28504:15[90m)[39m
+    at reconcileSingleElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:13986:23[90m)[39m
+    at reconcileChildFibers [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:14044:35[90m)[39m
+    at reconcileChildren [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:19186:28[90m)[39m
+    at updateContextProvider [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21193:3[90m)[39m
+    at beginWork [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21688:14[90m)[39m
+    at HTMLUnknownElement.callCallback [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:4164:14[90m)[39m
+    at HTMLUnknownElement.callTheUserObjectsOperation [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\generated\EventListener.js:26:30[90m)[39m
+    at innerInvokeEventListeners [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\events\EventTarget-impl.js:350:25[90m)[39m
+The above error occurred in the &lt;ReactRedux.Provider&gt; component:
+
+    at Provider (file:///C:/Users/Aaro/Downloads/COMP.CS.520/msaatu/react-and-redux-1/redux_thunk/node_modules/react-redux/dist/react-redux.mjs:875:11)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+            </system-err>
+            <failure message="Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports." type="Error">
+Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+ ❯ createFiberFromTypeAndProps ../node_modules/react-dom/cjs/react-dom.development.js:28478:17
+ ❯ createFiberFromElement ../node_modules/react-dom/cjs/react-dom.development.js:28504:15
+ ❯ reconcileSingleElement ../node_modules/react-dom/cjs/react-dom.development.js:13986:23
+ ❯ reconcileChildFibers ../node_modules/react-dom/cjs/react-dom.development.js:14044:35
+ ❯ reconcileChildren ../node_modules/react-dom/cjs/react-dom.development.js:19186:28
+ ❯ updateContextProvider ../node_modules/react-dom/cjs/react-dom.development.js:21193:3
+ ❯ beginWork ../node_modules/react-dom/cjs/react-dom.development.js:21688:14
+ ❯ beginWork$1 ../node_modules/react-dom/cjs/react-dom.development.js:27465:14
+ ❯ performUnitOfWork ../node_modules/react-dom/cjs/react-dom.development.js:26599:12
+ ❯ workLoopSync ../node_modules/react-dom/cjs/react-dom.development.js:26505:5
+
+            </failure>
+            <failure message="Cannot read properties of undefined (reading &apos;unmount&apos;)" type="TypeError">
+TypeError: Cannot read properties of undefined (reading &apos;unmount&apos;)
+ ❯ components/__tests__/ListPlayers.test.jsx:36:15
+
+            </failure>
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/RequestStatus.test.jsx" timestamp="2025-01-22T11:09:20.988Z" hostname="DESKTOP-69SJ9HK" tests="2" failures="2" errors="0" skipped="0" time="0.032">
+        <testcase classname="components/__tests__/RequestStatus.test.jsx" name="RequestStatus component &gt; should render the component, inside which is an element with id &apos;request-status&apos;" time="0.026">
+            <system-err>
+Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+
+Check your code at RequestStatus.test.jsx:23.
+Error: Uncaught [Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.]
+    at reportException (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:66:24)
+    at innerInvokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:353:9)
+    at invokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+    at Object.invokeGuardedCallbackDev (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+    at invokeGuardedCallback (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+    at beginWork$1 (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:27490:7)
+    at performUnitOfWork (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:26599:12) Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+    at createFiberFromTypeAndProps [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28478:17[90m)[39m
+    at createFiberFromElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28504:15[90m)[39m
+    at reconcileSingleElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:13986:23[90m)[39m
+    at reconcileChildFibers [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:14044:35[90m)[39m
+    at reconcileChildren [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:19186:28[90m)[39m
+    at updateContextProvider [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21193:3[90m)[39m
+    at beginWork [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21688:14[90m)[39m
+    at HTMLUnknownElement.callCallback [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:4164:14[90m)[39m
+    at HTMLUnknownElement.callTheUserObjectsOperation [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\generated\EventListener.js:26:30[90m)[39m
+    at innerInvokeEventListeners [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\events\EventTarget-impl.js:350:25[90m)[39m
+Error: Uncaught [Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.]
+    at reportException (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:66:24)
+    at innerInvokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:353:9)
+    at invokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+    at Object.invokeGuardedCallbackDev (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+    at invokeGuardedCallback (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+    at beginWork$1 (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:27490:7)
+    at performUnitOfWork (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:26599:12) Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+    at createFiberFromTypeAndProps [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28478:17[90m)[39m
+    at createFiberFromElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28504:15[90m)[39m
+    at reconcileSingleElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:13986:23[90m)[39m
+    at reconcileChildFibers [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:14044:35[90m)[39m
+    at reconcileChildren [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:19186:28[90m)[39m
+    at updateContextProvider [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21193:3[90m)[39m
+    at beginWork [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21688:14[90m)[39m
+    at HTMLUnknownElement.callCallback [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:4164:14[90m)[39m
+    at HTMLUnknownElement.callTheUserObjectsOperation [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\generated\EventListener.js:26:30[90m)[39m
+    at innerInvokeEventListeners [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\events\EventTarget-impl.js:350:25[90m)[39m
+The above error occurred in the &lt;ReactRedux.Provider&gt; component:
+
+    at Provider (file:///C:/Users/Aaro/Downloads/COMP.CS.520/msaatu/react-and-redux-1/redux_thunk/node_modules/react-redux/dist/react-redux.mjs:875:11)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+            </system-err>
+            <failure message="Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports." type="Error">
+Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+ ❯ createFiberFromTypeAndProps ../node_modules/react-dom/cjs/react-dom.development.js:28478:17
+ ❯ createFiberFromElement ../node_modules/react-dom/cjs/react-dom.development.js:28504:15
+ ❯ reconcileSingleElement ../node_modules/react-dom/cjs/react-dom.development.js:13986:23
+ ❯ reconcileChildFibers ../node_modules/react-dom/cjs/react-dom.development.js:14044:35
+ ❯ reconcileChildren ../node_modules/react-dom/cjs/react-dom.development.js:19186:28
+ ❯ updateContextProvider ../node_modules/react-dom/cjs/react-dom.development.js:21193:3
+ ❯ beginWork ../node_modules/react-dom/cjs/react-dom.development.js:21688:14
+ ❯ beginWork$1 ../node_modules/react-dom/cjs/react-dom.development.js:27465:14
+ ❯ performUnitOfWork ../node_modules/react-dom/cjs/react-dom.development.js:26599:12
+ ❯ workLoopSync ../node_modules/react-dom/cjs/react-dom.development.js:26505:5
+
+            </failure>
+            <failure message="Cannot read properties of undefined (reading &apos;unmount&apos;)" type="TypeError">
+TypeError: Cannot read properties of undefined (reading &apos;unmount&apos;)
+ ❯ components/__tests__/RequestStatus.test.jsx:29:15
+
+            </failure>
+        </testcase>
+        <testcase classname="components/__tests__/RequestStatus.test.jsx" name="RequestStatus component &gt; should render the component with the correct status" time="0.003">
+            <system-err>
+Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+
+Check your code at RequestStatus.test.jsx:23.
+Error: Uncaught [Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.]
+    at reportException (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:66:24)
+    at innerInvokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:353:9)
+    at invokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+    at Object.invokeGuardedCallbackDev (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+    at invokeGuardedCallback (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+    at beginWork$1 (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:27490:7)
+    at performUnitOfWork (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:26599:12) Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+    at createFiberFromTypeAndProps [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28478:17[90m)[39m
+    at createFiberFromElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28504:15[90m)[39m
+    at reconcileSingleElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:13986:23[90m)[39m
+    at reconcileChildFibers [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:14044:35[90m)[39m
+    at reconcileChildren [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:19186:28[90m)[39m
+    at updateContextProvider [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21193:3[90m)[39m
+    at beginWork [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21688:14[90m)[39m
+    at HTMLUnknownElement.callCallback [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:4164:14[90m)[39m
+    at HTMLUnknownElement.callTheUserObjectsOperation [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\generated\EventListener.js:26:30[90m)[39m
+    at innerInvokeEventListeners [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\events\EventTarget-impl.js:350:25[90m)[39m
+Error: Uncaught [Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.]
+    at reportException (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:66:24)
+    at innerInvokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:353:9)
+    at invokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+    at Object.invokeGuardedCallbackDev (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+    at invokeGuardedCallback (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+    at beginWork$1 (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:27490:7)
+    at performUnitOfWork (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:26599:12) Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+    at createFiberFromTypeAndProps [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28478:17[90m)[39m
+    at createFiberFromElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28504:15[90m)[39m
+    at reconcileSingleElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:13986:23[90m)[39m
+    at reconcileChildFibers [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:14044:35[90m)[39m
+    at reconcileChildren [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:19186:28[90m)[39m
+    at updateContextProvider [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21193:3[90m)[39m
+    at beginWork [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21688:14[90m)[39m
+    at HTMLUnknownElement.callCallback [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:4164:14[90m)[39m
+    at HTMLUnknownElement.callTheUserObjectsOperation [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\generated\EventListener.js:26:30[90m)[39m
+    at innerInvokeEventListeners [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\events\EventTarget-impl.js:350:25[90m)[39m
+The above error occurred in the &lt;ReactRedux.Provider&gt; component:
+
+    at Provider (file:///C:/Users/Aaro/Downloads/COMP.CS.520/msaatu/react-and-redux-1/redux_thunk/node_modules/react-redux/dist/react-redux.mjs:875:11)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+            </system-err>
+            <failure message="Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports." type="Error">
+Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+ ❯ createFiberFromTypeAndProps ../node_modules/react-dom/cjs/react-dom.development.js:28478:17
+ ❯ createFiberFromElement ../node_modules/react-dom/cjs/react-dom.development.js:28504:15
+ ❯ reconcileSingleElement ../node_modules/react-dom/cjs/react-dom.development.js:13986:23
+ ❯ reconcileChildFibers ../node_modules/react-dom/cjs/react-dom.development.js:14044:35
+ ❯ reconcileChildren ../node_modules/react-dom/cjs/react-dom.development.js:19186:28
+ ❯ updateContextProvider ../node_modules/react-dom/cjs/react-dom.development.js:21193:3
+ ❯ beginWork ../node_modules/react-dom/cjs/react-dom.development.js:21688:14
+ ❯ beginWork$1 ../node_modules/react-dom/cjs/react-dom.development.js:27465:14
+ ❯ performUnitOfWork ../node_modules/react-dom/cjs/react-dom.development.js:26599:12
+ ❯ workLoopSync ../node_modules/react-dom/cjs/react-dom.development.js:26505:5
+
+            </failure>
+            <failure message="Cannot read properties of undefined (reading &apos;unmount&apos;)" type="TypeError">
+TypeError: Cannot read properties of undefined (reading &apos;unmount&apos;)
+ ❯ components/__tests__/RequestStatus.test.jsx:29:15
+
+            </failure>
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/SelectedPlayer.test.jsx" timestamp="2025-01-22T11:09:20.991Z" hostname="DESKTOP-69SJ9HK" tests="3" failures="3" errors="0" skipped="0" time="0.04">
+        <testcase classname="components/__tests__/SelectedPlayer.test.jsx" name="SelectedPlayer component &gt; should render active player data correctly" time="0.028">
+            <system-err>
+Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+
+Check your code at SelectedPlayer.test.jsx:31.
+Error: Uncaught [Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.]
+    at reportException (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:66:24)
+    at innerInvokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:353:9)
+    at invokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+    at Object.invokeGuardedCallbackDev (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+    at invokeGuardedCallback (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+    at beginWork$1 (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:27490:7)
+    at performUnitOfWork (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:26599:12) Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+    at createFiberFromTypeAndProps [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28478:17[90m)[39m
+    at createFiberFromElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28504:15[90m)[39m
+    at reconcileSingleElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:13986:23[90m)[39m
+    at reconcileChildFibers [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:14044:35[90m)[39m
+    at reconcileChildren [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:19186:28[90m)[39m
+    at updateContextProvider [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21193:3[90m)[39m
+    at beginWork [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21688:14[90m)[39m
+    at HTMLUnknownElement.callCallback [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:4164:14[90m)[39m
+    at HTMLUnknownElement.callTheUserObjectsOperation [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\generated\EventListener.js:26:30[90m)[39m
+    at innerInvokeEventListeners [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\events\EventTarget-impl.js:350:25[90m)[39m
+Error: Uncaught [Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.]
+    at reportException (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:66:24)
+    at innerInvokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:353:9)
+    at invokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+    at Object.invokeGuardedCallbackDev (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+    at invokeGuardedCallback (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+    at beginWork$1 (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:27490:7)
+    at performUnitOfWork (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:26599:12) Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+    at createFiberFromTypeAndProps [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28478:17[90m)[39m
+    at createFiberFromElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28504:15[90m)[39m
+    at reconcileSingleElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:13986:23[90m)[39m
+    at reconcileChildFibers [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:14044:35[90m)[39m
+    at reconcileChildren [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:19186:28[90m)[39m
+    at updateContextProvider [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21193:3[90m)[39m
+    at beginWork [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21688:14[90m)[39m
+    at HTMLUnknownElement.callCallback [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:4164:14[90m)[39m
+    at HTMLUnknownElement.callTheUserObjectsOperation [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\generated\EventListener.js:26:30[90m)[39m
+    at innerInvokeEventListeners [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\events\EventTarget-impl.js:350:25[90m)[39m
+The above error occurred in the &lt;ReactRedux.Provider&gt; component:
+
+    at Provider (file:///C:/Users/Aaro/Downloads/COMP.CS.520/msaatu/react-and-redux-1/redux_thunk/node_modules/react-redux/dist/react-redux.mjs:875:11)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+            </system-err>
+            <failure message="Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports." type="Error">
+Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+ ❯ createFiberFromTypeAndProps ../node_modules/react-dom/cjs/react-dom.development.js:28478:17
+ ❯ createFiberFromElement ../node_modules/react-dom/cjs/react-dom.development.js:28504:15
+ ❯ reconcileSingleElement ../node_modules/react-dom/cjs/react-dom.development.js:13986:23
+ ❯ reconcileChildFibers ../node_modules/react-dom/cjs/react-dom.development.js:14044:35
+ ❯ reconcileChildren ../node_modules/react-dom/cjs/react-dom.development.js:19186:28
+ ❯ updateContextProvider ../node_modules/react-dom/cjs/react-dom.development.js:21193:3
+ ❯ beginWork ../node_modules/react-dom/cjs/react-dom.development.js:21688:14
+ ❯ beginWork$1 ../node_modules/react-dom/cjs/react-dom.development.js:27465:14
+ ❯ performUnitOfWork ../node_modules/react-dom/cjs/react-dom.development.js:26599:12
+ ❯ workLoopSync ../node_modules/react-dom/cjs/react-dom.development.js:26505:5
+
+            </failure>
+            <failure message="Cannot read properties of undefined (reading &apos;unmount&apos;)" type="TypeError">
+TypeError: Cannot read properties of undefined (reading &apos;unmount&apos;)
+ ❯ components/__tests__/SelectedPlayer.test.jsx:17:15
+
+            </failure>
+        </testcase>
+        <testcase classname="components/__tests__/SelectedPlayer.test.jsx" name="SelectedPlayer component &gt; should render inactive player data correctly" time="0.004">
+            <system-err>
+Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+
+Check your code at SelectedPlayer.test.jsx:55.
+Error: Uncaught [Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.]
+    at reportException (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:66:24)
+    at innerInvokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:353:9)
+    at invokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+    at Object.invokeGuardedCallbackDev (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+    at invokeGuardedCallback (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+    at beginWork$1 (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:27490:7)
+    at performUnitOfWork (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:26599:12) Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+    at createFiberFromTypeAndProps [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28478:17[90m)[39m
+    at createFiberFromElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28504:15[90m)[39m
+    at reconcileSingleElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:13986:23[90m)[39m
+    at reconcileChildFibers [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:14044:35[90m)[39m
+    at reconcileChildren [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:19186:28[90m)[39m
+    at updateContextProvider [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21193:3[90m)[39m
+    at beginWork [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21688:14[90m)[39m
+    at HTMLUnknownElement.callCallback [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:4164:14[90m)[39m
+    at HTMLUnknownElement.callTheUserObjectsOperation [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\generated\EventListener.js:26:30[90m)[39m
+    at innerInvokeEventListeners [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\events\EventTarget-impl.js:350:25[90m)[39m
+Error: Uncaught [Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.]
+    at reportException (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:66:24)
+    at innerInvokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:353:9)
+    at invokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+    at Object.invokeGuardedCallbackDev (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+    at invokeGuardedCallback (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+    at beginWork$1 (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:27490:7)
+    at performUnitOfWork (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:26599:12) Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+    at createFiberFromTypeAndProps [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28478:17[90m)[39m
+    at createFiberFromElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28504:15[90m)[39m
+    at reconcileSingleElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:13986:23[90m)[39m
+    at reconcileChildFibers [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:14044:35[90m)[39m
+    at reconcileChildren [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:19186:28[90m)[39m
+    at updateContextProvider [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21193:3[90m)[39m
+    at beginWork [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21688:14[90m)[39m
+    at HTMLUnknownElement.callCallback [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:4164:14[90m)[39m
+    at HTMLUnknownElement.callTheUserObjectsOperation [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\generated\EventListener.js:26:30[90m)[39m
+    at innerInvokeEventListeners [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\events\EventTarget-impl.js:350:25[90m)[39m
+The above error occurred in the &lt;ReactRedux.Provider&gt; component:
+
+    at Provider (file:///C:/Users/Aaro/Downloads/COMP.CS.520/msaatu/react-and-redux-1/redux_thunk/node_modules/react-redux/dist/react-redux.mjs:875:11)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+            </system-err>
+            <failure message="Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports." type="Error">
+Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+ ❯ createFiberFromTypeAndProps ../node_modules/react-dom/cjs/react-dom.development.js:28478:17
+ ❯ createFiberFromElement ../node_modules/react-dom/cjs/react-dom.development.js:28504:15
+ ❯ reconcileSingleElement ../node_modules/react-dom/cjs/react-dom.development.js:13986:23
+ ❯ reconcileChildFibers ../node_modules/react-dom/cjs/react-dom.development.js:14044:35
+ ❯ reconcileChildren ../node_modules/react-dom/cjs/react-dom.development.js:19186:28
+ ❯ updateContextProvider ../node_modules/react-dom/cjs/react-dom.development.js:21193:3
+ ❯ beginWork ../node_modules/react-dom/cjs/react-dom.development.js:21688:14
+ ❯ beginWork$1 ../node_modules/react-dom/cjs/react-dom.development.js:27465:14
+ ❯ performUnitOfWork ../node_modules/react-dom/cjs/react-dom.development.js:26599:12
+ ❯ workLoopSync ../node_modules/react-dom/cjs/react-dom.development.js:26505:5
+
+            </failure>
+            <failure message="Cannot read properties of undefined (reading &apos;unmount&apos;)" type="TypeError">
+TypeError: Cannot read properties of undefined (reading &apos;unmount&apos;)
+ ❯ components/__tests__/SelectedPlayer.test.jsx:17:15
+
+            </failure>
+        </testcase>
+        <testcase classname="components/__tests__/SelectedPlayer.test.jsx" name="SelectedPlayer component &gt; should not render if selected player is null" time="0.005">
+            <system-err>
+Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+
+Check your code at SelectedPlayer.test.jsx:79.
+Error: Uncaught [Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.]
+    at reportException (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:66:24)
+    at innerInvokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:353:9)
+    at invokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+    at Object.invokeGuardedCallbackDev (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+    at invokeGuardedCallback (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+    at beginWork$1 (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:27490:7)
+    at performUnitOfWork (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:26599:12) Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+    at createFiberFromTypeAndProps [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28478:17[90m)[39m
+    at createFiberFromElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28504:15[90m)[39m
+    at reconcileSingleElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:13986:23[90m)[39m
+    at reconcileChildFibers [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:14044:35[90m)[39m
+    at reconcileChildren [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:19186:28[90m)[39m
+    at updateContextProvider [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21193:3[90m)[39m
+    at beginWork [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21688:14[90m)[39m
+    at HTMLUnknownElement.callCallback [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:4164:14[90m)[39m
+    at HTMLUnknownElement.callTheUserObjectsOperation [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\generated\EventListener.js:26:30[90m)[39m
+    at innerInvokeEventListeners [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\events\EventTarget-impl.js:350:25[90m)[39m
+Error: Uncaught [Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.]
+    at reportException (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js:66:24)
+    at innerInvokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:353:9)
+    at invokeEventListeners (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:286:3)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:233:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:104:17)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+    at Object.invokeGuardedCallbackDev (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4213:16)
+    at invokeGuardedCallback (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:4277:31)
+    at beginWork$1 (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:27490:7)
+    at performUnitOfWork (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\node_modules\react-dom\cjs\react-dom.development.js:26599:12) Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+    at createFiberFromTypeAndProps [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28478:17[90m)[39m
+    at createFiberFromElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:28504:15[90m)[39m
+    at reconcileSingleElement [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:13986:23[90m)[39m
+    at reconcileChildFibers [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:14044:35[90m)[39m
+    at reconcileChildren [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:19186:28[90m)[39m
+    at updateContextProvider [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21193:3[90m)[39m
+    at beginWork [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:21688:14[90m)[39m
+    at HTMLUnknownElement.callCallback [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mreact-dom[24m\cjs\react-dom.development.js:4164:14[90m)[39m
+    at HTMLUnknownElement.callTheUserObjectsOperation [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\generated\EventListener.js:26:30[90m)[39m
+    at innerInvokeEventListeners [90m(C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\redux_thunk\[39mnode_modules\[4mjsdom[24m\lib\jsdom\living\events\EventTarget-impl.js:350:25[90m)[39m
+The above error occurred in the &lt;ReactRedux.Provider&gt; component:
+
+    at Provider (file:///C:/Users/Aaro/Downloads/COMP.CS.520/msaatu/react-and-redux-1/redux_thunk/node_modules/react-redux/dist/react-redux.mjs:875:11)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+            </system-err>
+            <failure message="Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports." type="Error">
+Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it&apos;s defined in, or you might have mixed up default and named imports.
+ ❯ createFiberFromTypeAndProps ../node_modules/react-dom/cjs/react-dom.development.js:28478:17
+ ❯ createFiberFromElement ../node_modules/react-dom/cjs/react-dom.development.js:28504:15
+ ❯ reconcileSingleElement ../node_modules/react-dom/cjs/react-dom.development.js:13986:23
+ ❯ reconcileChildFibers ../node_modules/react-dom/cjs/react-dom.development.js:14044:35
+ ❯ reconcileChildren ../node_modules/react-dom/cjs/react-dom.development.js:19186:28
+ ❯ updateContextProvider ../node_modules/react-dom/cjs/react-dom.development.js:21193:3
+ ❯ beginWork ../node_modules/react-dom/cjs/react-dom.development.js:21688:14
+ ❯ beginWork$1 ../node_modules/react-dom/cjs/react-dom.development.js:27465:14
+ ❯ performUnitOfWork ../node_modules/react-dom/cjs/react-dom.development.js:26599:12
+ ❯ workLoopSync ../node_modules/react-dom/cjs/react-dom.development.js:26505:5
+
+            </failure>
+            <failure message="Cannot read properties of undefined (reading &apos;unmount&apos;)" type="TypeError">
+TypeError: Cannot read properties of undefined (reading &apos;unmount&apos;)
+ ❯ components/__tests__/SelectedPlayer.test.jsx:17:15
+
+            </failure>
+        </testcase>
+    </testsuite>
+    <testsuite name="redux/actionCreators/__tests__/ActionCreators.test.js" timestamp="2025-01-22T11:09:20.995Z" hostname="DESKTOP-69SJ9HK" tests="6" failures="0" errors="0" skipped="0" time="0.011">
+        <testcase classname="redux/actionCreators/__tests__/ActionCreators.test.js" name="Testing action creators &gt; setStatus: &gt; returns an action with type SET_REQUEST_STATUS to the frontends reducers along with the payload (String) that is given as a param" time="0.003">
+        </testcase>
+        <testcase classname="redux/actionCreators/__tests__/ActionCreators.test.js" name="Testing action creators &gt; setSelectedPlayer: &gt; returns an action with type SET_SELECTED_PLAYER to the frontends reducers along with the payload (Object) that is given as a param" time="0.001">
+        </testcase>
+        <testcase classname="redux/actionCreators/__tests__/ActionCreators.test.js" name="Testing action creators &gt; clearSelectedPlayer: &gt; returns an action with type CLEAR_SELECTED_PLAYER to the frontends reducers" time="0">
+        </testcase>
+        <testcase classname="redux/actionCreators/__tests__/ActionCreators.test.js" name="Testing action creators &gt; setPlayers: &gt; returns an action with type SET_PLAYERS to the frontends reducers" time="0.001">
+        </testcase>
+        <testcase classname="redux/actionCreators/__tests__/ActionCreators.test.js" name="Testing action creators &gt; addPlayer: &gt; returns an action with type ADD_PLAYER to the frontends reducers" time="0">
+        </testcase>
+        <testcase classname="redux/actionCreators/__tests__/ActionCreators.test.js" name="Testing action creators &gt; removePlayer: &gt; returns an action with type REMOVE_PLAYER to the frontends reducers" time="0">
+        </testcase>
+    </testsuite>
+    <testsuite name="redux/reducers/__tests__/Reducers.test.js" timestamp="2025-01-22T11:09:20.996Z" hostname="DESKTOP-69SJ9HK" tests="11" failures="0" errors="0" skipped="0" time="0.007">
+        <testcase classname="redux/reducers/__tests__/Reducers.test.js" name="playersReducer &gt; should return the initial state when no matching type in switch-case" time="0.002">
+        </testcase>
+        <testcase classname="redux/reducers/__tests__/Reducers.test.js" name="playersReducer &gt; should handle SET_PLAYERS by returning its payload" time="0">
+        </testcase>
+        <testcase classname="redux/reducers/__tests__/Reducers.test.js" name="playersReducer &gt; should handle ADD_PLAYER by adding it to the state" time="0">
+        </testcase>
+        <testcase classname="redux/reducers/__tests__/Reducers.test.js" name="playersReducer &gt; should handle REMOVE_PLAYER by removing a player whose id === payload from the store" time="0.001">
+        </testcase>
+        <testcase classname="redux/reducers/__tests__/Reducers.test.js" name="statusReducer &gt; should return the initial state when no matching type in switch-case" time="0">
+        </testcase>
+        <testcase classname="redux/reducers/__tests__/Reducers.test.js" name="statusReducer &gt; Payload loading: should handle SET_STATUS by returning REQ_STATUS[loading]" time="0">
+        </testcase>
+        <testcase classname="redux/reducers/__tests__/Reducers.test.js" name="statusReducer &gt; Payload success: should handle SET_STATUS by returning REQ_STATUS[success]" time="0">
+        </testcase>
+        <testcase classname="redux/reducers/__tests__/Reducers.test.js" name="statusReducer &gt; Payload error: should handle SET_STATUS by returning REQ_STATUS[error]" time="0.001">
+        </testcase>
+        <testcase classname="redux/reducers/__tests__/Reducers.test.js" name="selectedPlayerReducer &gt; should return the initial state when no matching type in switch-case" time="0">
+        </testcase>
+        <testcase classname="redux/reducers/__tests__/Reducers.test.js" name="selectedPlayerReducer &gt; should handle SET_SELECTED_PLAYER by returning payload" time="0">
+        </testcase>
+        <testcase classname="redux/reducers/__tests__/Reducers.test.js" name="selectedPlayerReducer &gt; should handle CLEAR_SELECTED_PLAYER by returning payload" time="0">
+        </testcase>
+    </testsuite>
+    <testsuite name="redux/actionCreators/thunks/__tests__/Thunk.test.js" timestamp="2025-01-22T11:09:20.998Z" hostname="DESKTOP-69SJ9HK" tests="1" failures="1" errors="0" skipped="0" time="0">
+        <testcase classname="redux/actionCreators/thunks/__tests__/Thunk.test.js" name="redux/actionCreators/thunks/__tests__/Thunk.test.js" time="0">
+            <failure message="Failed to resolve import &quot;../../actionCreators/selectedPlayersAction&quot; from &quot;src/redux/actionCreators/thunks/AddPlayer.js&quot;. Does the file exist?" type="Error">
+Error: Failed to resolve import &quot;../../actionCreators/selectedPlayersAction&quot; from &quot;src/redux/actionCreators/thunks/AddPlayer.js&quot;. Does the file exist?
+ ❯ TransformPluginContext._formatError ../node_modules/vite/dist/node/chunks/dep-Cjmyj91f.js:49257:41
+ ❯ TransformPluginContext.error ../node_modules/vite/dist/node/chunks/dep-Cjmyj91f.js:49252:16
+ ❯ normalizeUrl ../node_modules/vite/dist/node/chunks/dep-Cjmyj91f.js:64191:23
+ ❯ ../async file:/C:/Users/Aaro/Downloads/COMP.CS.520/msaatu/react-and-redux-1/redux_thunk/node_modules/vite/dist/node/chunks/dep-Cjmyj91f.js:64323:39
+ ❯ TransformPluginContext.transform ../node_modules/vite/dist/node/chunks/dep-Cjmyj91f.js:64250:7
+ ❯ PluginContainer.transform ../node_modules/vite/dist/node/chunks/dep-Cjmyj91f.js:49098:18
+ ❯ loadAndTransform ../node_modules/vite/dist/node/chunks/dep-Cjmyj91f.js:51931:27
+
+            </failure>
+        </testcase>
+    </testsuite>
+</testsuites>

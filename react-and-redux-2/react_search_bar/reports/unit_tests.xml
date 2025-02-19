@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="20" failures="0" errors="0" time="1.503">
+    <testsuite name="components/__tests__/ListPlayer.test.jsx" timestamp="2025-01-28T11:59:04.914Z" hostname="DESKTOP-69SJ9HK" tests="4" failures="0" errors="0" skipped="0" time="0.215">
+        <testcase classname="components/__tests__/ListPlayer.test.jsx" name="ListPlayer &gt; renders a list item with the player&apos;s id as its id" time="0.111">
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayer.test.jsx" name="ListPlayer &gt; displays the player name inside the anchor element" time="0.048">
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayer.test.jsx" name="ListPlayer &gt; calls the onClick prop with the player id when the link is clicked" time="0.03">
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayer.test.jsx" name="ListPlayer &gt; anchor should be focusable via the keyboard (by pressing the tab key)" time="0.024">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/ListPlayers.test.jsx" timestamp="2025-01-28T11:59:04.917Z" hostname="DESKTOP-69SJ9HK" tests="7" failures="0" errors="0" skipped="0" time="0.261">
+        <testcase classname="components/__tests__/ListPlayers.test.jsx" name="ListPlayers &gt; renders a list with id &quot;players-list&quot;" time="0.125">
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayers.test.jsx" name="ListPlayers &gt; renders a ListPlayer for each player in the players prop" time="0.052">
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayers.test.jsx" name="ListPlayers &gt; renders a search bar" time="0.003">
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayers.test.jsx" name="ListPlayers &gt; filters players based on search input" time="0.027">
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayers.test.jsx" name="ListPlayers &gt; filters players case-insensitively" time="0.022">
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayers.test.jsx" name="ListPlayers &gt; resets the list when the search bar is cleared" time="0.029">
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayers.test.jsx" name="ListPlayers &gt; shows no players if the search term does not match" time="0.003">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/RequestStatus.test.jsx" timestamp="2025-01-28T11:59:04.918Z" hostname="DESKTOP-69SJ9HK" tests="2" failures="0" errors="0" skipped="0" time="0.024">
+        <testcase classname="components/__tests__/RequestStatus.test.jsx" name="RequestStatus component &gt; should render the component, inside which is an element with id &apos;request-status&apos;" time="0.021">
+        </testcase>
+        <testcase classname="components/__tests__/RequestStatus.test.jsx" name="RequestStatus component &gt; should render the component with the correct status" time="0.002">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/SearchBox.test.jsx" timestamp="2025-01-28T11:59:04.919Z" hostname="DESKTOP-69SJ9HK" tests="4" failures="0" errors="0" skipped="0" time="0.036">
+        <testcase classname="components/__tests__/SearchBox.test.jsx" name="SearchBox Component &gt; renders the input element" time="0.02">
+        </testcase>
+        <testcase classname="components/__tests__/SearchBox.test.jsx" name="SearchBox Component &gt; displays the initial search term" time="0.002">
+        </testcase>
+        <testcase classname="components/__tests__/SearchBox.test.jsx" name="SearchBox Component &gt; calls onSearchChange when the input value changes" time="0.008">
+        </testcase>
+        <testcase classname="components/__tests__/SearchBox.test.jsx" name="SearchBox Component &gt; updates the input value when searchTerm changes" time="0.004">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/SelectedPlayer.test.jsx" timestamp="2025-01-28T11:59:04.920Z" hostname="DESKTOP-69SJ9HK" tests="3" failures="0" errors="0" skipped="0" time="0.028">
+        <testcase classname="components/__tests__/SelectedPlayer.test.jsx" name="SelectedPlayer component &gt; should render active player data correctly" time="0.021">
+        </testcase>
+        <testcase classname="components/__tests__/SelectedPlayer.test.jsx" name="SelectedPlayer component &gt; should render inactive player data correctly" time="0.004">
+        </testcase>
+        <testcase classname="components/__tests__/SelectedPlayer.test.jsx" name="SelectedPlayer component &gt; should not render if selected player is null" time="0.002">
+        </testcase>
+    </testsuite>
+</testsuites>

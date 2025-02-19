@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="6" failures="4" errors="0" time="31.591">
+    <testsuite name="components/__tests__/ListPlayer.test.jsx" timestamp="2025-01-22T08:14:52.907Z" hostname="DESKTOP-69SJ9HK" tests="4" failures="4" errors="0" skipped="0" time="0.188">
+        <testcase classname="components/__tests__/ListPlayer.test.jsx" name="ListPlayer &gt; renders a list item with the player&apos;s id as its id" time="0.078">
+            <system-err>
+Warning: Failed prop type: The prop `player` is marked as required in `ListPlayer`, but its value is `undefined`.
+    at ListPlayer (C:\Users\Aaro\Downloads\COMP.CS.520\msaatu\react-and-redux-1\react_redux\src\components\ListPlayer.jsx:11:23)
+
+            </system-err>
+            <failure message="Unable to find an accessible element with the role &quot;listitem&quot;
+
+There are no accessible roles. But there might be some inaccessible roles. If you wish to access them, then set the `hidden` option to `true`. Learn more about this here: https://testing-library.com/docs/dom-testing-library/api-queries#byrole
+
+Ignored nodes: comments, script, style
+[36m&lt;body&gt;[39m
+  [36m&lt;div /&gt;[39m
+[36m&lt;/body&gt;[39m" type="TestingLibraryElementError">
+TestingLibraryElementError: Unable to find an accessible element with the role &quot;listitem&quot;
+
+There are no accessible roles. But there might be some inaccessible roles. If you wish to access them, then set the `hidden` option to `true`. Learn more about this here: https://testing-library.com/docs/dom-testing-library/api-queries#byrole
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div /&gt;
+&lt;/body&gt;
+ ❯ Object.getElementError ../node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ ../node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ ../node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ ../node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ components/__tests__/ListPlayer.test.jsx:32:19
+
+            </failure>
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayer.test.jsx" name="ListPlayer &gt; displays the player name inside the anchor element" time="0.044">
+            <failure message="Unable to find an accessible element with the role &quot;link&quot;
+
+There are no accessible roles. But there might be some inaccessible roles. If you wish to access them, then set the `hidden` option to `true`. Learn more about this here: https://testing-library.com/docs/dom-testing-library/api-queries#byrole
+
+Ignored nodes: comments, script, style
+[36m&lt;body&gt;[39m
+  [36m&lt;div /&gt;[39m
+  [36m&lt;div /&gt;[39m
+[36m&lt;/body&gt;[39m" type="TestingLibraryElementError">
+TestingLibraryElementError: Unable to find an accessible element with the role &quot;link&quot;
+
+There are no accessible roles. But there might be some inaccessible roles. If you wish to access them, then set the `hidden` option to `true`. Learn more about this here: https://testing-library.com/docs/dom-testing-library/api-queries#byrole
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div /&gt;
+  &lt;div /&gt;
+&lt;/body&gt;
+ ❯ Object.getElementError ../node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ ../node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ ../node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ ../node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ components/__tests__/ListPlayer.test.jsx:36:19
+
+            </failure>
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayer.test.jsx" name="ListPlayer &gt; calls the onClick prop with the player id when the link is clicked" time="0.035">
+            <failure message="Unable to find an accessible element with the role &quot;link&quot;
+
+There are no accessible roles. But there might be some inaccessible roles. If you wish to access them, then set the `hidden` option to `true`. Learn more about this here: https://testing-library.com/docs/dom-testing-library/api-queries#byrole
+
+Ignored nodes: comments, script, style
+[36m&lt;body&gt;[39m
+  [36m&lt;div /&gt;[39m
+  [36m&lt;div /&gt;[39m
+  [36m&lt;div /&gt;[39m
+[36m&lt;/body&gt;[39m" type="TestingLibraryElementError">
+TestingLibraryElementError: Unable to find an accessible element with the role &quot;link&quot;
+
+There are no accessible roles. But there might be some inaccessible roles. If you wish to access them, then set the `hidden` option to `true`. Learn more about this here: https://testing-library.com/docs/dom-testing-library/api-queries#byrole
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div /&gt;
+  &lt;div /&gt;
+  &lt;div /&gt;
+&lt;/body&gt;
+ ❯ Object.getElementError ../node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ ../node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ ../node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ ../node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ components/__tests__/ListPlayer.test.jsx:40:28
+
+            </failure>
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayer.test.jsx" name="ListPlayer &gt; Accessibility: anchor should be focusable via the keyboard (by pressing the tab key)" time="0.028">
+            <failure message="Unable to find an accessible element with the role &quot;link&quot;
+
+There are no accessible roles. But there might be some inaccessible roles. If you wish to access them, then set the `hidden` option to `true`. Learn more about this here: https://testing-library.com/docs/dom-testing-library/api-queries#byrole
+
+Ignored nodes: comments, script, style
+[36m&lt;body&gt;[39m
+  [36m&lt;div /&gt;[39m
+  [36m&lt;div /&gt;[39m
+  [36m&lt;div /&gt;[39m
+  [36m&lt;div /&gt;[39m
+[36m&lt;/body&gt;[39m" type="TestingLibraryElementError">
+TestingLibraryElementError: Unable to find an accessible element with the role &quot;link&quot;
+
+There are no accessible roles. But there might be some inaccessible roles. If you wish to access them, then set the `hidden` option to `true`. Learn more about this here: https://testing-library.com/docs/dom-testing-library/api-queries#byrole
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div /&gt;
+  &lt;div /&gt;
+  &lt;div /&gt;
+  &lt;div /&gt;
+&lt;/body&gt;
+ ❯ Object.getElementError ../node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ ../node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ ../node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ ../node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ components/__tests__/ListPlayer.test.jsx:45:25
+
+            </failure>
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/ListPlayers.test.jsx" timestamp="2025-01-22T08:14:52.912Z" hostname="DESKTOP-69SJ9HK" tests="2" failures="0" errors="0" skipped="0" time="0.124">
+        <testcase classname="components/__tests__/ListPlayers.test.jsx" name="ListPlayers &gt; renders a list with id &quot;players-list&quot;" time="0.024">
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayers.test.jsx" name="ListPlayers &gt; renders a ListPlayer for each player in the players prop" time="0.097">
+        </testcase>
+    </testsuite>
+</testsuites>

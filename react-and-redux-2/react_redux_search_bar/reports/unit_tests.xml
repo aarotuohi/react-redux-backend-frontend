@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="36" failures="0" errors="0" time="2.433">
+    <testsuite name="components/__tests__/ListPlayer.test.jsx" timestamp="2025-01-29T12:40:14.432Z" hostname="DESKTOP-69SJ9HK" tests="4" failures="0" errors="0" skipped="0" time="0.217">
+        <testcase classname="components/__tests__/ListPlayer.test.jsx" name="ListPlayer &gt; renders a list item with the player&apos;s id as its id" time="0.097">
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayer.test.jsx" name="ListPlayer &gt; displays the player name inside the anchor element" time="0.058">
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayer.test.jsx" name="ListPlayer &gt; calls the onClick prop with the player id when the link is clicked" time="0.034">
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayer.test.jsx" name="ListPlayer &gt; Accessibility: anchor should be focusable via the keyboard (by pressing the tab key)" time="0.025">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/ListPlayers.test.jsx" timestamp="2025-01-29T12:40:14.436Z" hostname="DESKTOP-69SJ9HK" tests="2" failures="0" errors="0" skipped="0" time="0.129">
+        <testcase classname="components/__tests__/ListPlayers.test.jsx" name="ListPlayers &gt; renders a list with id &quot;players-list&quot;" time="0.028">
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayers.test.jsx" name="ListPlayers &gt; renders a ListPlayer for each player in the players prop" time="0.098">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/RequestStatus.test.jsx" timestamp="2025-01-29T12:40:14.436Z" hostname="DESKTOP-69SJ9HK" tests="2" failures="0" errors="0" skipped="0" time="0.027">
+        <testcase classname="components/__tests__/RequestStatus.test.jsx" name="RequestStatus component &gt; should render the component, inside which is an element with id &apos;request-status&apos;" time="0.021">
+        </testcase>
+        <testcase classname="components/__tests__/RequestStatus.test.jsx" name="RequestStatus component &gt; should render the component with the correct status" time="0.002">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/SearchBar.test.jsx" timestamp="2025-01-29T12:40:14.437Z" hostname="DESKTOP-69SJ9HK" tests="4" failures="0" errors="0" skipped="0" time="0.04">
+        <testcase classname="components/__tests__/SearchBar.test.jsx" name="SearchBar Component &gt; should render the search bar" time="0.023">
+        </testcase>
+        <testcase classname="components/__tests__/SearchBar.test.jsx" name="SearchBar Component &gt; has the correct initial value" time="0.003">
+        </testcase>
+        <testcase classname="components/__tests__/SearchBar.test.jsx" name="SearchBar Component &gt; updates the input value on change" time="0.006">
+        </testcase>
+        <testcase classname="components/__tests__/SearchBar.test.jsx" name="SearchBar Component without beforeEach &gt; should dispatch setSearchQuery action on input change" time="0.004">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/SelectedPlayer.test.jsx" timestamp="2025-01-29T12:40:14.438Z" hostname="DESKTOP-69SJ9HK" tests="3" failures="0" errors="0" skipped="0" time="0.03">
+        <testcase classname="components/__tests__/SelectedPlayer.test.jsx" name="SelectedPlayer component &gt; should render active player data correctly" time="0.022">
+        </testcase>
+        <testcase classname="components/__tests__/SelectedPlayer.test.jsx" name="SelectedPlayer component &gt; should render inactive player data correctly" time="0.003">
+        </testcase>
+        <testcase classname="components/__tests__/SelectedPlayer.test.jsx" name="SelectedPlayer component &gt; should not render if selected player is null" time="0.002">
+        </testcase>
+    </testsuite>
+    <testsuite name="redux/actionCreators/__tests__/ActionCreators.test.js" timestamp="2025-01-29T12:40:14.439Z" hostname="DESKTOP-69SJ9HK" tests="9" failures="0" errors="0" skipped="0" time="0.012">
+        <testcase classname="redux/actionCreators/__tests__/ActionCreators.test.js" name="Testing action creators &gt; setStatus: &gt; returns an action with type SET_REQUEST_STATUS to the frontends reducers along with the payload (String) that is given as a param" time="0.002">
+        </testcase>
+        <testcase classname="redux/actionCreators/__tests__/ActionCreators.test.js" name="Testing action creators &gt; setSelectedPlayer: &gt; returns an action with type SET_SELECTED_PLAYER to the frontends reducers along with the payload (Object) that is given as a param" time="0">
+        </testcase>
+        <testcase classname="redux/actionCreators/__tests__/ActionCreators.test.js" name="Testing action creators &gt; clearSelectedPlayer: &gt; returns an action with type CLEAR_SELECTED_PLAYER to the frontends reducers" time="0">
+        </testcase>
+        <testcase classname="redux/actionCreators/__tests__/ActionCreators.test.js" name="Testing action creators &gt; setPlayers: &gt; returns an action with type SET_PLAYERS to the frontends reducers" time="0.001">
+        </testcase>
+        <testcase classname="redux/actionCreators/__tests__/ActionCreators.test.js" name="Testing action creators &gt; setSearchQuery action creator &gt; should create an action to set the search query" time="0">
+        </testcase>
+        <testcase classname="redux/actionCreators/__tests__/ActionCreators.test.js" name="Testing action creators &gt; setSearchQuery action creator &gt; setSearchQuery action creator &gt; should create an action to set the search query" time="0.001">
+        </testcase>
+        <testcase classname="redux/actionCreators/__tests__/ActionCreators.test.js" name="Testing action creators &gt; setSearchQuery action creator &gt; setSearchQuery action creator &gt; should handle an empty query" time="0">
+        </testcase>
+        <testcase classname="redux/actionCreators/__tests__/ActionCreators.test.js" name="Testing action creators &gt; setSearchQuery action creator &gt; setSearchQuery action creator &gt; should handle a null query" time="0">
+        </testcase>
+        <testcase classname="redux/actionCreators/__tests__/ActionCreators.test.js" name="Testing action creators &gt; setSearchQuery action creator &gt; setSearchQuery action creator &gt; should handle a query with special characters" time="0.001">
+        </testcase>
+    </testsuite>
+    <testsuite name="redux/reducers/__tests__/Reducers.test.js" timestamp="2025-01-29T12:40:14.441Z" hostname="DESKTOP-69SJ9HK" tests="12" failures="0" errors="0" skipped="0" time="0.01">
+        <testcase classname="redux/reducers/__tests__/Reducers.test.js" name="playersReducer &gt; should return the initial state when no matching type in switch-case" time="0.002">
+        </testcase>
+        <testcase classname="redux/reducers/__tests__/Reducers.test.js" name="playersReducer &gt; should handle SET_PLAYERS by returning its payload" time="0.001">
+        </testcase>
+        <testcase classname="redux/reducers/__tests__/Reducers.test.js" name="statusReducer &gt; should return the initial state when no matching type in switch-case" time="0">
+        </testcase>
+        <testcase classname="redux/reducers/__tests__/Reducers.test.js" name="statusReducer &gt; Payload loading: should handle SET_STATUS by returning REQ_STATUS[loading]" time="0.001">
+        </testcase>
+        <testcase classname="redux/reducers/__tests__/Reducers.test.js" name="statusReducer &gt; Payload success: should handle SET_STATUS by returning REQ_STATUS[success]" time="0">
+        </testcase>
+        <testcase classname="redux/reducers/__tests__/Reducers.test.js" name="statusReducer &gt; Payload error: should handle SET_STATUS by returning REQ_STATUS[error]" time="0">
+        </testcase>
+        <testcase classname="redux/reducers/__tests__/Reducers.test.js" name="selectedPlayerReducer &gt; should return the initial state when no matching type in switch-case" time="0">
+        </testcase>
+        <testcase classname="redux/reducers/__tests__/Reducers.test.js" name="selectedPlayerReducer &gt; should handle SET_SELECTED_PLAYER by returning payload" time="0">
+        </testcase>
+        <testcase classname="redux/reducers/__tests__/Reducers.test.js" name="selectedPlayerReducer &gt; should handle CLEAR_SELECTED_PLAYER by returning payload" time="0.001">
+        </testcase>
+        <testcase classname="redux/reducers/__tests__/Reducers.test.js" name="searchReducer &gt; should return the initial state" time="0">
+        </testcase>
+        <testcase classname="redux/reducers/__tests__/Reducers.test.js" name="searchReducer &gt; should handle SET_SEARCH_QUERY" time="0">
+        </testcase>
+        <testcase classname="redux/reducers/__tests__/Reducers.test.js" name="searchReducer &gt; should update state with a new query" time="0.001">
+        </testcase>
+    </testsuite>
+</testsuites>

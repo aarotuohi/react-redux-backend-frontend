@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="32" failures="1" errors="0" time="3.072">
+    <testsuite name="components/__tests__/AddPlayer.test.jsx" timestamp="2025-02-01T09:58:14.652Z" hostname="DESKTOP-69SJ9HK" tests="2" failures="0" errors="0" skipped="0" time="0.103">
+        <testcase classname="components/__tests__/AddPlayer.test.jsx" name="AddPlayer &gt; postPlayer is dispatched when form is submitted with played info" time="0.056">
+        </testcase>
+        <testcase classname="components/__tests__/AddPlayer.test.jsx" name="AddPlayer &gt; clears the input when the form is submitted" time="0.043">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/ListPlayer.test.jsx" timestamp="2025-02-01T09:58:14.655Z" hostname="DESKTOP-69SJ9HK" tests="3" failures="0" errors="0" skipped="0" time="0.216">
+        <testcase classname="components/__tests__/ListPlayer.test.jsx" name="ListPlayer &gt; renders a list item with the player&apos;s id as its id" time="0.116">
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayer.test.jsx" name="ListPlayer &gt; displays the player name inside the anchor element" time="0.057">
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayer.test.jsx" name="ListPlayer &gt; calls the onClick prop with the player id when the link is clicked" time="0.04">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/ListPlayers.test.jsx" timestamp="2025-02-01T09:58:14.656Z" hostname="DESKTOP-69SJ9HK" tests="2" failures="0" errors="0" skipped="0" time="0.137">
+        <testcase classname="components/__tests__/ListPlayers.test.jsx" name="ListPlayers &gt; renders a list with id &quot;players-list&quot;" time="0.034">
+        </testcase>
+        <testcase classname="components/__tests__/ListPlayers.test.jsx" name="ListPlayers &gt; renders a ListPlayer for each player in the players prop" time="0.1">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/RequestStatus.test.jsx" timestamp="2025-02-01T09:58:14.657Z" hostname="DESKTOP-69SJ9HK" tests="2" failures="0" errors="0" skipped="0" time="0.025">
+        <testcase classname="components/__tests__/RequestStatus.test.jsx" name="RequestStatus component &gt; should render the component, inside which is an element with id &apos;request-status&apos;" time="0.02">
+        </testcase>
+        <testcase classname="components/__tests__/RequestStatus.test.jsx" name="RequestStatus component &gt; should render the component with the correct status" time="0.003">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/SelectedPlayer.test.jsx" timestamp="2025-02-01T09:58:14.658Z" hostname="DESKTOP-69SJ9HK" tests="3" failures="0" errors="0" skipped="0" time="0.038">
+        <testcase classname="components/__tests__/SelectedPlayer.test.jsx" name="SelectedPlayer component &gt; should render active player data correctly" time="0.029">
+        </testcase>
+        <testcase classname="components/__tests__/SelectedPlayer.test.jsx" name="SelectedPlayer component &gt; should render inactive player data correctly" time="0.004">
+        </testcase>
+        <testcase classname="components/__tests__/SelectedPlayer.test.jsx" name="SelectedPlayer component &gt; should not render if selected player is null" time="0.002">
+        </testcase>
+    </testsuite>
+    <testsuite name="redux/actionCreators/__tests__/playersActions.test.js" timestamp="2025-02-01T09:58:14.658Z" hostname="DESKTOP-69SJ9HK" tests="4" failures="0" errors="0" skipped="0" time="0.007">
+        <testcase classname="redux/actionCreators/__tests__/playersActions.test.js" name="playersActions &gt; should create an action to set players" time="0.002">
+        </testcase>
+        <testcase classname="redux/actionCreators/__tests__/playersActions.test.js" name="playersActions &gt; should create an action to add a player" time="0.001">
+        </testcase>
+        <testcase classname="redux/actionCreators/__tests__/playersActions.test.js" name="playersActions &gt; should create an action to remove a player" time="0">
+        </testcase>
+        <testcase classname="redux/actionCreators/__tests__/playersActions.test.js" name="playersActions &gt; should create an action to update a player" time="0">
+        </testcase>
+    </testsuite>
+    <testsuite name="redux/actionCreators/__tests__/selectedPlayerActions.test.js" timestamp="2025-02-01T09:58:14.659Z" hostname="DESKTOP-69SJ9HK" tests="2" failures="0" errors="0" skipped="0" time="0.006">
+        <testcase classname="redux/actionCreators/__tests__/selectedPlayerActions.test.js" name="selectedPlayerActions &gt; should create an action to set selected player" time="0.002">
+        </testcase>
+        <testcase classname="redux/actionCreators/__tests__/selectedPlayerActions.test.js" name="selectedPlayerActions &gt; should create an action to clear selected player" time="0">
+        </testcase>
+    </testsuite>
+    <testsuite name="redux/actionCreators/__tests__/statusActions.test.js" timestamp="2025-02-01T09:58:14.660Z" hostname="DESKTOP-69SJ9HK" tests="1" failures="0" errors="0" skipped="0" time="0.005">
+        <testcase classname="redux/actionCreators/__tests__/statusActions.test.js" name="statusActions &gt; should create an action to set request status" time="0.002">
+        </testcase>
+    </testsuite>
+    <testsuite name="redux/reducers/__tests__/playersReducer.test.js" timestamp="2025-02-01T09:58:14.660Z" hostname="DESKTOP-69SJ9HK" tests="3" failures="0" errors="0" skipped="0" time="0.006">
+        <testcase classname="redux/reducers/__tests__/playersReducer.test.js" name="playersReducer &gt; should return the initial state" time="0.002">
+        </testcase>
+        <testcase classname="redux/reducers/__tests__/playersReducer.test.js" name="playersReducer &gt; should handle SET_PLAYERS" time="0">
+        </testcase>
+        <testcase classname="redux/reducers/__tests__/playersReducer.test.js" name="playersReducer &gt; should handle SET_FILTERED_PLAYERS" time="0">
+        </testcase>
+    </testsuite>
+    <testsuite name="redux/reducers/__tests__/selectedPlayerReducer.test.js" timestamp="2025-02-01T09:58:14.661Z" hostname="DESKTOP-69SJ9HK" tests="4" failures="0" errors="0" skipped="0" time="0.009">
+        <testcase classname="redux/reducers/__tests__/selectedPlayerReducer.test.js" name="selectedPlayerReducer &gt; should return the initial state" time="0.002">
+        </testcase>
+        <testcase classname="redux/reducers/__tests__/selectedPlayerReducer.test.js" name="selectedPlayerReducer &gt; should handle SET_SELECTED_PLAYER" time="0">
+        </testcase>
+        <testcase classname="redux/reducers/__tests__/selectedPlayerReducer.test.js" name="selectedPlayerReducer &gt; should handle CLEAR_SELECTED_PLAYER" time="0">
+        </testcase>
+        <testcase classname="redux/reducers/__tests__/selectedPlayerReducer.test.js" name="selectedPlayerReducer &gt; should return the current state when action type is unknown" time="0.001">
+        </testcase>
+    </testsuite>
+    <testsuite name="redux/reducers/__tests__/statusReducer.test.js" timestamp="2025-02-01T09:58:14.662Z" hostname="DESKTOP-69SJ9HK" tests="3" failures="0" errors="0" skipped="0" time="0.005">
+        <testcase classname="redux/reducers/__tests__/statusReducer.test.js" name="statusReducer &gt; should return the default state" time="0.002">
+        </testcase>
+        <testcase classname="redux/reducers/__tests__/statusReducer.test.js" name="statusReducer &gt; should handle SET_REQUEST_STATUS" time="0">
+        </testcase>
+        <testcase classname="redux/reducers/__tests__/statusReducer.test.js" name="statusReducer &gt; should return the current state when action type is unknown" time="0">
+        </testcase>
+    </testsuite>
+    <testsuite name="redux/actionCreators/thunks/__tests__/fetchFilteredPlayers.test.js" timestamp="2025-02-01T09:58:14.662Z" hostname="DESKTOP-69SJ9HK" tests="2" failures="0" errors="0" skipped="0" time="0.622">
+        <testcase classname="redux/actionCreators/thunks/__tests__/fetchFilteredPlayers.test.js" name="fetchFilteredPlayers &gt; should dispatch SET_FILTERED_PLAYERS with filtered players" time="0.313">
+        </testcase>
+        <testcase classname="redux/actionCreators/thunks/__tests__/fetchFilteredPlayers.test.js" name="fetchFilteredPlayers &gt; should dispatch SET_FILTERED_PLAYERS with an empty array if no players match" time="0.305">
+        </testcase>
+    </testsuite>
+    <testsuite name="redux/actionCreators/thunks/__tests__/Thunk.test.js" timestamp="2025-02-01T09:58:14.663Z" hostname="DESKTOP-69SJ9HK" tests="1" failures="1" errors="0" skipped="0" time="0">
+        <testcase classname="redux/actionCreators/thunks/__tests__/Thunk.test.js" name="redux/actionCreators/thunks/__tests__/Thunk.test.js" time="0">
+            <failure message="Failed to resolve import &quot;../../../constants&quot; from &quot;src/redux/actionCreators/thunks/SelectedPlayer.js&quot;. Does the file exist?" type="Error">
+Error: Failed to resolve import &quot;../../../constants&quot; from &quot;src/redux/actionCreators/thunks/SelectedPlayer.js&quot;. Does the file exist?
+ ❯ TransformPluginContext._formatError ../node_modules/vite/dist/node/chunks/dep-CHZK6zbr.js:49257:41
+ ❯ TransformPluginContext.error ../node_modules/vite/dist/node/chunks/dep-CHZK6zbr.js:49252:16
+ ❯ normalizeUrl ../node_modules/vite/dist/node/chunks/dep-CHZK6zbr.js:64199:23
+ ❯ ../async file:/C:/Users/Aaro/Downloads/COMP.CS.520/msaatu/react-and-redux-2/redux_thunk_search_bar/node_modules/vite/dist/node/chunks/dep-CHZK6zbr.js:64331:39
+ ❯ TransformPluginContext.transform ../node_modules/vite/dist/node/chunks/dep-CHZK6zbr.js:64258:7
+ ❯ PluginContainer.transform ../node_modules/vite/dist/node/chunks/dep-CHZK6zbr.js:49098:18
+ ❯ loadAndTransform ../node_modules/vite/dist/node/chunks/dep-CHZK6zbr.js:51931:27
+
+            </failure>
+        </testcase>
+    </testsuite>
+</testsuites>

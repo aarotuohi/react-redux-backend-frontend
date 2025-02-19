@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="22" failures="0" errors="0" time="2.311">
+    <testsuite name="components/__tests__/About.test.jsx" timestamp="2025-02-07T07:20:25.320Z" hostname="DESKTOP-69SJ9HK" tests="1" failures="0" errors="0" skipped="0" time="0.026">
+        <testcase classname="components/__tests__/About.test.jsx" name="About component &gt; renders About component" time="0.023">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/App.test.jsx" timestamp="2025-02-07T07:20:25.322Z" hostname="DESKTOP-69SJ9HK" tests="3" failures="0" errors="0" skipped="0" time="0.06">
+        <testcase classname="components/__tests__/App.test.jsx" name="App Component &gt; renders without crashing" time="0.032">
+            <system-err>
+⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+            </system-err>
+        </testcase>
+        <testcase classname="components/__tests__/App.test.jsx" name="App Component &gt; renders AppContent component" time="0.018">
+        </testcase>
+        <testcase classname="components/__tests__/App.test.jsx" name="App Component &gt; renders navigation links " time="0.007">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/AppRoutes.test.jsx" timestamp="2025-02-07T07:20:25.324Z" hostname="DESKTOP-69SJ9HK" tests="3" failures="0" errors="0" skipped="0" time="0.162">
+        <testcase classname="components/__tests__/AppRoutes.test.jsx" name="AppRoutes &gt; renders About component for &quot;/about&quot; route" time="0.041">
+            <system-err>
+⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+            </system-err>
+        </testcase>
+        <testcase classname="components/__tests__/AppRoutes.test.jsx" name="AppRoutes &gt; renders Posts component" time="0.049">
+            <system-err>
+[MSW] Warning: intercepted a request without a matching request handler:
+
+  • GET https://jsonplaceholder.typicode.com/posts
+
+If you still wish to intercept this unhandled request, please create a request handler for it.
+Read more: https://mswjs.io/docs/getting-started/mocks
+
+            </system-err>
+        </testcase>
+        <testcase classname="components/__tests__/AppRoutes.test.jsx" name="AppRoutes &gt; renders NotFound component for undefined routes" time="0.006">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/Home.test.jsx" timestamp="2025-02-07T07:20:25.325Z" hostname="DESKTOP-69SJ9HK" tests="3" failures="0" errors="0" skipped="0" time="0.055">
+        <testcase classname="components/__tests__/Home.test.jsx" name="Home component &gt; renders Home component correctly" time="0.04">
+            <system-err>
+⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+            </system-err>
+        </testcase>
+        <testcase classname="components/__tests__/Home.test.jsx" name="Home component &gt; has correct container class" time="0.006">
+        </testcase>
+        <testcase classname="components/__tests__/Home.test.jsx" name="Home component &gt; renders navigation links correctly" time="0.006">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/LastVisitedPages.test.jsx" timestamp="2025-02-07T07:20:25.326Z" hostname="DESKTOP-69SJ9HK" tests="3" failures="0" errors="0" skipped="0" time="0.116">
+        <testcase classname="components/__tests__/LastVisitedPages.test.jsx" name="LastVisitedPages Component &gt; should render without crashing" time="0.026">
+            <system-err>
+⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+            </system-err>
+        </testcase>
+        <testcase classname="components/__tests__/LastVisitedPages.test.jsx" name="LastVisitedPages Component &gt; should display the correct number of links" time="0.076">
+        </testcase>
+        <testcase classname="components/__tests__/LastVisitedPages.test.jsx" name="LastVisitedPages Component &gt; should display the correct links" time="0.009">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/NotFound.test.jsx" timestamp="2025-02-07T07:20:25.327Z" hostname="DESKTOP-69SJ9HK" tests="1" failures="0" errors="0" skipped="0" time="0.025">
+        <testcase classname="components/__tests__/NotFound.test.jsx" name="NotFound component &gt; renders 404 error message" time="0.022">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/Posts.test.jsx" timestamp="2025-02-07T07:20:25.327Z" hostname="DESKTOP-69SJ9HK" tests="4" failures="0" errors="0" skipped="0" time="0.065">
+        <testcase classname="components/__tests__/Posts.test.jsx" name="Posts Component &gt; dispatches fetchPosts action on mount" time="0.028">
+            <system-err>
+⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+            </system-err>
+        </testcase>
+        <testcase classname="components/__tests__/Posts.test.jsx" name="Posts Component &gt; displays loading message when loading" time="0.017">
+        </testcase>
+        <testcase classname="components/__tests__/Posts.test.jsx" name="Posts Component &gt; displays error message when there is an error" time="0.005">
+        </testcase>
+        <testcase classname="components/__tests__/Posts.test.jsx" name="Posts Component &gt; displays posts when data is available" time="0.012">
+        </testcase>
+    </testsuite>
+    <testsuite name="redux/__tests__/store.test.jsx" timestamp="2025-02-07T07:20:25.328Z" hostname="DESKTOP-69SJ9HK" tests="4" failures="0" errors="0" skipped="0" time="0.01">
+        <testcase classname="redux/__tests__/store.test.jsx" name="Redux Store &gt; should handle TRACK_PAGE action" time="0.003">
+        </testcase>
+        <testcase classname="redux/__tests__/store.test.jsx" name="Redux Store &gt; should handle FETCH_POSTS_SUCCESS action" time="0.001">
+        </testcase>
+        <testcase classname="redux/__tests__/store.test.jsx" name="Redux Store &gt; should handle FETCH_POSTS_FAILURE action" time="0">
+        </testcase>
+        <testcase classname="redux/__tests__/store.test.jsx" name="Redux Store &gt; should dispatch fetchPosts thunk" time="0.002">
+        </testcase>
+    </testsuite>
+</testsuites>

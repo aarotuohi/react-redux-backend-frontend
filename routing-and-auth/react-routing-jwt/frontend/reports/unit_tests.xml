@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="47" failures="0" errors="0" time="3.637">
+    <testsuite name="components/__tests__/About.test.jsx" timestamp="2025-02-08T15:59:53.194Z" hostname="DESKTOP-69SJ9HK" tests="1" failures="0" errors="0" skipped="0" time="0.027">
+        <testcase classname="components/__tests__/About.test.jsx" name="About component &gt; renders About component" time="0.024">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/App.test.jsx" timestamp="2025-02-08T15:59:53.197Z" hostname="DESKTOP-69SJ9HK" tests="4" failures="0" errors="0" skipped="0" time="0.092">
+        <testcase classname="components/__tests__/App.test.jsx" name="App Component &gt; should render navigation links correctly" time="0.051">
+            <system-err>
+⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+            </system-err>
+        </testcase>
+        <testcase classname="components/__tests__/App.test.jsx" name="App Component &gt; should show VIP links when user is authenticated" time="0.014">
+        </testcase>
+        <testcase classname="components/__tests__/App.test.jsx" name="App Component &gt; should dispatch logout action when logout button is clicked" time="0.016">
+        </testcase>
+        <testcase classname="components/__tests__/App.test.jsx" name="App Component &gt; should display error message when error state is present" time="0.008">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/AppRoutes.test.jsx" timestamp="2025-02-08T15:59:53.198Z" hostname="DESKTOP-69SJ9HK" tests="5" failures="0" errors="0" skipped="0" time="0.08">
+        <testcase classname="components/__tests__/AppRoutes.test.jsx" name="AppRoutes &gt; renders About component for &quot;/about&quot; route" time="0.043">
+            <system-err>
+⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+            </system-err>
+        </testcase>
+        <testcase classname="components/__tests__/AppRoutes.test.jsx" name="AppRoutes &gt; redirects to Login component from &quot;/vip&quot; route when user is not logged in" time="0.016">
+        </testcase>
+        <testcase classname="components/__tests__/AppRoutes.test.jsx" name="AppRoutes &gt; renders VIPArea component for &quot;/vip&quot; route when user is logged in" time="0.005">
+        </testcase>
+        <testcase classname="components/__tests__/AppRoutes.test.jsx" name="AppRoutes &gt; redirects to Login component for &quot;/vip/posts&quot; route when user is not logged in" time="0.008">
+        </testcase>
+        <testcase classname="components/__tests__/AppRoutes.test.jsx" name="AppRoutes &gt; renders NotFound component for undefined routes" time="0.004">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/LastVisitedPages.test.jsx" timestamp="2025-02-08T15:59:53.199Z" hostname="DESKTOP-69SJ9HK" tests="3" failures="0" errors="0" skipped="0" time="0.154">
+        <testcase classname="components/__tests__/LastVisitedPages.test.jsx" name="LastVisitedPages Component &gt; should render without crashing" time="0.029">
+            <system-err>
+⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+            </system-err>
+        </testcase>
+        <testcase classname="components/__tests__/LastVisitedPages.test.jsx" name="LastVisitedPages Component &gt; should display the correct number of links" time="0.109">
+        </testcase>
+        <testcase classname="components/__tests__/LastVisitedPages.test.jsx" name="LastVisitedPages Component &gt; should display the correct links" time="0.011">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/Login.test.jsx" timestamp="2025-02-08T15:59:53.200Z" hostname="DESKTOP-69SJ9HK" tests="4" failures="0" errors="0" skipped="0" time="0.186">
+        <testcase classname="components/__tests__/Login.test.jsx" name="Login Component &gt; should render the login form" time="0.125">
+            <system-err>
+⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+            </system-err>
+        </testcase>
+        <testcase classname="components/__tests__/Login.test.jsx" name="Login Component &gt; should show notification if email and password are not provided" time="0.023">
+        </testcase>
+        <testcase classname="components/__tests__/Login.test.jsx" name="Login Component &gt; should show notification if password is less than 10 characters" time="0.018">
+        </testcase>
+        <testcase classname="components/__tests__/Login.test.jsx" name="Login Component &gt; should dispatch loginUser action if email and password are valid" time="0.017">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/NotFound.test.jsx" timestamp="2025-02-08T15:59:53.201Z" hostname="DESKTOP-69SJ9HK" tests="1" failures="0" errors="0" skipped="0" time="0.025">
+        <testcase classname="components/__tests__/NotFound.test.jsx" name="NotFound component &gt; renders 404 error message" time="0.023">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/Register.test.jsx" timestamp="2025-02-08T15:59:53.202Z" hostname="DESKTOP-69SJ9HK" tests="4" failures="0" errors="0" skipped="0" time="0.218">
+        <testcase classname="components/__tests__/Register.test.jsx" name="Register Component &gt; should render the registration form" time="0.142">
+            <system-err>
+⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+            </system-err>
+        </testcase>
+        <testcase classname="components/__tests__/Register.test.jsx" name="Register Component &gt; should show notification if password is too short" time="0.034">
+        </testcase>
+        <testcase classname="components/__tests__/Register.test.jsx" name="Register Component &gt; should show notification if passwords do not match" time="0.019">
+        </testcase>
+        <testcase classname="components/__tests__/Register.test.jsx" name="Register Component &gt; should dispatch registerUser action if all inputs are valid" time="0.02">
+        </testcase>
+    </testsuite>
+    <testsuite name="components/__tests__/VIPArea.test.jsx" timestamp="2025-02-08T15:59:53.202Z" hostname="DESKTOP-69SJ9HK" tests="5" failures="0" errors="0" skipped="0" time="0.058">
+        <testcase classname="components/__tests__/VIPArea.test.jsx" name="VIPArea Component &gt; redirects to login if user is not logged in" time="0.036">
+            <system-err>
+⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+            </system-err>
+        </testcase>
+        <testcase classname="components/__tests__/VIPArea.test.jsx" name="VIPArea Component &gt; renders VIP area if user is logged in" time="0.008">
+        </testcase>
+        <testcase classname="components/__tests__/VIPArea.test.jsx" name="VIPArea Component &gt; redirects to login if user is not logged in" time="0.003">
+        </testcase>
+        <testcase classname="components/__tests__/VIPArea.test.jsx" name="VIPArea Component &gt; redirects to login if user does not have an email" time="0.003">
+        </testcase>
+        <testcase classname="components/__tests__/VIPArea.test.jsx" name="VIPArea Component &gt; renders VIP area if user is logged in with email" time="0.004">
+        </testcase>
+    </testsuite>
+    <testsuite name="redux/__tests__/authActions.test.js" timestamp="2025-02-08T15:59:53.203Z" hostname="DESKTOP-69SJ9HK" tests="7" failures="0" errors="0" skipped="0" time="0.011">
+        <testcase classname="redux/__tests__/authActions.test.js" name="Auth Actions &gt; should check authentication status and set user auth" time="0.003">
+        </testcase>
+        <testcase classname="redux/__tests__/authActions.test.js" name="Auth Actions &gt; should handle authentication check failure" time="0.001">
+        </testcase>
+        <testcase classname="redux/__tests__/authActions.test.js" name="Auth Actions &gt; should log out user and redirect to login" time="0.001">
+        </testcase>
+        <testcase classname="redux/__tests__/authActions.test.js" name="Auth Actions &gt; should register user and set auth state" time="0.001">
+        </testcase>
+        <testcase classname="redux/__tests__/authActions.test.js" name="Auth Actions &gt; should handle registration failure" time="0">
+        </testcase>
+        <testcase classname="redux/__tests__/authActions.test.js" name="Auth Actions &gt; should log in user and set auth state" time="0.001">
+        </testcase>
+        <testcase classname="redux/__tests__/authActions.test.js" name="Auth Actions &gt; should handle login failure" time="0">
+        </testcase>
+    </testsuite>
+    <testsuite name="redux/__tests__/authReducer.test.js" timestamp="2025-02-08T15:59:53.204Z" hostname="DESKTOP-69SJ9HK" tests="4" failures="0" errors="0" skipped="0" time="0.006">
+        <testcase classname="redux/__tests__/authReducer.test.js" name="authReducer &gt; should return the initial state" time="0.002">
+        </testcase>
+        <testcase classname="redux/__tests__/authReducer.test.js" name="authReducer &gt; should handle SET_USER_AUTH" time="0">
+        </testcase>
+        <testcase classname="redux/__tests__/authReducer.test.js" name="authReducer &gt; should handle LOGOUT_USER" time="0">
+        </testcase>
+        <testcase classname="redux/__tests__/authReducer.test.js" name="authReducer &gt; should handle AUTH_ERROR" time="0">
+        </testcase>
+    </testsuite>
+    <testsuite name="redux/__tests__/notificationReducer.test.js" timestamp="2025-02-08T15:59:53.205Z" hostname="DESKTOP-69SJ9HK" tests="3" failures="0" errors="0" skipped="0" time="0.009">
+        <testcase classname="redux/__tests__/notificationReducer.test.js" name="notificationReducer &gt; should return the initial state" time="0.003">
+        </testcase>
+        <testcase classname="redux/__tests__/notificationReducer.test.js" name="notificationReducer &gt; should handle SHOW_NOTIFICATION" time="0.001">
+        </testcase>
+        <testcase classname="redux/__tests__/notificationReducer.test.js" name="notificationReducer &gt; should handle HIDE_NOTIFICATION" time="0">
+        </testcase>
+    </testsuite>
+    <testsuite name="redux/__tests__/postsReducer.test.js" timestamp="2025-02-08T15:59:53.205Z" hostname="DESKTOP-69SJ9HK" tests="2" failures="0" errors="0" skipped="0" time="0.006">
+        <testcase classname="redux/__tests__/postsReducer.test.js" name="postsReducer &gt; should return the initial state" time="0.002">
+        </testcase>
+        <testcase classname="redux/__tests__/postsReducer.test.js" name="postsReducer &gt; should handle SET_POSTS" time="0">
+        </testcase>
+    </testsuite>
+    <testsuite name="redux/__tests__/productsReducer.test.js" timestamp="2025-02-08T15:59:53.206Z" hostname="DESKTOP-69SJ9HK" tests="2" failures="0" errors="0" skipped="0" time="0.008">
+        <testcase classname="redux/__tests__/productsReducer.test.js" name="productsReducer &gt; should return the initial state" time="0.003">
+        </testcase>
+        <testcase classname="redux/__tests__/productsReducer.test.js" name="productsReducer &gt; should handle SET_PRODUCTS" time="0">
+        </testcase>
+    </testsuite>
+    <testsuite name="redux/__tests__/store.test.jsx" timestamp="2025-02-08T15:59:53.206Z" hostname="DESKTOP-69SJ9HK" tests="2" failures="0" errors="0" skipped="0" time="0.006">
+        <testcase classname="redux/__tests__/store.test.jsx" name="Redux Store &gt; should create a store with the correct initial state" time="0.002">
+        </testcase>
+        <testcase classname="redux/__tests__/store.test.jsx" name="Redux Store &gt; should apply middleware correctly" time="0">
+        </testcase>
+    </testsuite>
+</testsuites>
